@@ -2,17 +2,24 @@ header
 
   .navigation
 
-      .navigation__mobile-menu__toggle
+    .navigation__mobile-menu__toggle
 
-        span.navigation__mobile-menu__icon
+      span.navigation__mobile-menu__icon
 
-      ul.navigation__menu
+    .navigation-logo
 
-        li.navigation__menu__item(class="#{ current.path[0] == 'index' ? 'is-active' : '' }")
-          a(href='/') Home
+      a(href='/').navigation-logo__svg
 
-        li.navigation__menu__item(class="#{ current.path[0] == 'blog' ? 'is-active' : '' }")
-          a(href='/blog') Blog
+        svg.navigation-logo__svg-main
+          use(href='#logo-main')
 
-        li.navigation__menu__item
-          a(href='https://github.com/marzeelabs/generator-mzharp' target='_blank') Github
+        svg.navigation-logo__svg-minified
+          use(href='#logo-minified')
+
+    ul.navigation__menu
+
+      li.navigation__menu-item(class="#{ current.path[0] == 'mission' ? 'is-active' : '' }")
+        a(href='/mission') Mission
+
+      li.navigation__menu-item(class="#{ current.path[0] == 'participate' ? 'is-active' : '' }")
+        a(href='/participate') Participate

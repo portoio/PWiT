@@ -1,0 +1,12 @@
+.profile-cards
+
+  ul.profile-cards__content
+
+    for profile, slug in public.profiles._data
+      if (slug !== 'index')
+        li.profile-cards__content-item
+          a.profile-cards__content-item__link(href='/profiles/#{slug}')
+            .profile-cards__content-item__link-image
+              img(src='/images/profiles/#{profile.image}.jpg', alt='#{profile.name.toLowerCase().replace(" ", "-")}', title='#{profile.name}')
+            h5.profile-cards__content-item__link-name #{profile.name}
+            h6.profile-cards__content-item__link-role #{profile.role}

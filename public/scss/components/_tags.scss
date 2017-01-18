@@ -1,0 +1,13 @@
+.tags {
+  display: inline-block;
+  padding: ritmo() 15px;
+  margin: ritmo() 5px;
+  border: palette(black) 1px solid;
+  color: palette(black);
+  transition: all ease-in 0.15s;
+
+  &:hover {
+    background: palette(black);
+    color: palette(white);
+  }
+}
