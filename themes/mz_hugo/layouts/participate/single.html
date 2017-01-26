@@ -1,0 +1,10 @@
+{{ define "main" }}
+<div class="participate-section">
+  <div class="participate-section__content">
+    <h6 class="participate-content__title">{{ .Description }}</h6>
+    {{ .Content }}
+
+    {{ partial "participate_form.html" . }}
+  </div>
+</div>
+{{ end }}

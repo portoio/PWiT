@@ -1,0 +1,5 @@
+{{ if .Params.layout }}
+  {{ .Render "profile_alt" }}
+{{ else }}
+  {{ .Render "profile_main" }}
+{{ end }}

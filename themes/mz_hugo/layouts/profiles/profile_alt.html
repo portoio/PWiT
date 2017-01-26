@@ -1,0 +1,74 @@
+{{ define "main" }}
+
+<div class="profile">
+  <div class="profile__content">
+    <div class="profile__content-image">
+      <img src="{{ .Params.image }}" alt="{{ .Title }}" title="{{ .Title }}">
+
+      <div class="profile__content-image__name">
+        <h2>{{ .Title }}</h2>
+      </div>
+    </div>
+
+    <div class="profile__content-resume">
+      <h5 class="profile__content-resume__title">Profile</h5>
+
+      <div class="profile__content-resume__item">
+        <svg class="profile__content-resume__item-time">
+          <use href="#time-icon"></use>
+        </svg>
+        <span>Time in tech</span>
+        {{ .Params.timeInTech }}
+      </div>
+
+      <div class="profile__content-resume__item">
+        <svg class="profile__content-resume__item-role">
+          <use href="#role-icon"></use>
+        </svg>
+        <span>Current role</span>
+        {{ .Description }}
+      </div>
+
+      <div class="profile__content-resume__item">
+        <svg class="profile__content-resume__item-origin">
+          <use href="#origin-icon"></use>
+        </svg>
+        <span>Place of origin</span>
+        {{ .Params.placeOfOrigin }}
+      </div>
+
+      <div class="profile__content-resume__item-social">
+        {{ range .Params.socialLinks }}
+        <a href="{{ .url }}" target="_blank">
+          <svg class="profile__content-resume__item-social__icon">
+            <use href="#{{ .name }}-icon"></use>
+          </svg>
+        </a>
+        {{ end}}
+      </div>
+    </div>
+
+    <div class="profile__content-interview">
+      <h6 class="profile__content-interview__title">Tell us more about you:</h6>
+      <style>
+        /*
+          Workaround for this Hugo/Blackfriday bug:
+          https://github.com/spf13/hugo/issues/1778#issuecomment-246397217
+        */
+        .profile__content-interview > nav {
+          display: none;
+        }
+      </style>
+      {{ .Content }}
+    </div>
+
+    <div class="profile__content-tags">
+      {{ range $tag := .Params.tags }}
+        <a href="{{ "/tags/" | relLangURL }}{{ $tag | urlize }}" class="profile__content-tags__links">{{ $tag }}</a>
+      {{ end }}
+    </div>
+
+  </div>
+</div>
+
+{{ end }}
