@@ -1,0 +1,9 @@
+<li class="profile-cards__content-item">
+  <a href="{{ .URL }}" class="profile-cards__content-item__link">
+    <div class="profile-cards__content-item__link-image">
+      <img src="{{ .Params.image }}" alt="{{ .Title }}" title="{{ .Title }}">
+    </div>
+    <h5 class="profile-cards__content-item__link-name">{{ .Title }}</h5>
+    <h6 class="profile-cards__content-item__link-role">{{ .Description }}</h6>
+  </a>
+</li>
