@@ -4,7 +4,8 @@ var gulp = require('gulp'),
   sass = require('gulp-sass'),
   nano = require('gulp-cssnano'),
   runSequence = require('run-sequence'),
-  exec = require('child_process').exec;
+  exec = require('child_process').exec,
+  uglify = require('gulp-uglify');
 
 
 /**
@@ -22,7 +23,7 @@ gulp.task('sass', function() {
 gulp.task('scripts', function() {
   return gulp.src("./scripts/**/*.js") // Gets all files ending with .scss
     .pipe(concat('site.min.js'))
-    .pipe(nano())
+    .pipe(uglify())
     .pipe(gulp.dest('./static/js'));
 });
 
