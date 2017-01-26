@@ -3,6 +3,7 @@ baseurl = "http://example.org/"
 languageCode = "en-us"
 theme = "mz_hugo"
 contentdir = "content"
+MetaDataFormat = "yaml"
 googleAnalytics = ""
 [taxonomies]
   tag = "tags"
