@@ -1,13 +1,14 @@
 var gulp = require('gulp'),
-    autoprefixer = require('gulp-autoprefixer'),
-    concat = require('gulp-concat'),
-    sass = require('gulp-sass'),
-    nano = require('gulp-cssnano'),
-    runSequence = require('run-sequence');
+  autoprefixer = require('gulp-autoprefixer'),
+  concat = require('gulp-concat'),
+  sass = require('gulp-sass'),
+  nano = require('gulp-cssnano'),
+  runSequence = require('run-sequence'),
+  exec = require('child_process').exec;
 
 
 /**
- * Tasks
+ * Compile assets
  */
 
 gulp.task('sass', function() {
@@ -18,9 +19,35 @@ gulp.task('sass', function() {
     .pipe(gulp.dest('./static/css'));
 });
 
-
-gulp.task('watch', function(){
-  gulp.watch('./scss/*.scss', ['sass']);
+gulp.task('scripts', function() {
+  return gulp.src("./scripts/**/*.js") // Gets all files ending with .scss
+    .pipe(concat('site.min.js'))
+    .pipe(nano())
+    .pipe(gulp.dest('./static/js'));
 });
 
-gulp.task('default', ['watch']);
+/**
+ * Watch / Serve
+ */
+
+gulp.task('serve', function(){
+  gulp.watch('./scss/**/*.scss', ['sass']);
+  gulp.watch('./scripts/**/*.js', ['scripts']);
+
+  return exec('hugo server -s ../../', function (err) {
+    console.log("Hugo exited with error: ", err);
+  }).stdout.pipe(process.stdout);
+});
+
+
+/**
+ * Aggregator Tasks
+ */
+
+gulp.task('build', ['sass', 'scripts'], function() {
+  return exec('hugo -s ../../', function (err) {
+    console.log("Hugo exited with error: ", err);
+  }).stdout.pipe(process.stdout).stderr.pipe(process.stderr);
+});
+
+gulp.task('default', ['serve']);
