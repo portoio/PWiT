@@ -1,0 +1,44 @@
+.mission-section {
+  @extend .intro-section;
+}
+
+.mission-section__content {
+  @include container(860px);
+}
+
+.mission-content__title {
+  @extend .intro-section__title;
+  @include ritmo-font-size(18px);
+  @include container(860px);
+  margin-bottom: ritmo(4);
+
+  @include mq(break-medium-small) {
+    @include ritmo-font-size(22px);
+  }
+}
+
+.mission-content__img {
+  display: block;
+  margin: ritmo(4) auto;
+}
+
+.mission-section__content__link-participate {
+  display: inline-block;
+  color: palette(black);
+  background: palette(white);
+  border: 1px solid palette(black);
+  border-radius: 100px;
+  margin: ritmo(4) auto ritmo(8) auto;
+  padding: ritmo(3) 20px;
+  @include ritmo-font-size(14px);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+
+  &:hover {
+    background: palette(black);
+    color: palette(white);
+  }
+}

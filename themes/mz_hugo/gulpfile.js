@@ -11,16 +11,16 @@ var gulp = require('gulp'),
  */
 
 gulp.task('sass', function() {
-  return gulp.src("scss/*.scss") // Gets all files ending with .scss
-    .pipe(sass())
+  return gulp.src("./scss/**/*.scss") // Gets all files ending with .scss
+    .pipe(sass().on('error', sass.logError))
     .pipe(concat('app.css'))
     .pipe(nano())
-    .pipe(gulp.dest('static/css'));
+    .pipe(gulp.dest('./static/css'));
 });
 
 
 gulp.task('watch', function(){
-  gulp.watch('scss/*.scss', ['sass']);
+  gulp.watch('./scss/*.scss', ['sass']);
 });
 
 gulp.task('default', ['watch']);
