@@ -29,14 +29,14 @@ gulp.task('serve', ['fast-build'], function () {
      * Watch for scss changes, tell BrowserSync to refresh main.css
      */
     gulp.watch(["public/**/*.scss"], function () {
-      reload("public/css/app.css", {stream: true});
+      reload("public/scss/app.css", {stream: true});
       cp.exec('harp compile . www', {stdio: 'inherit'});
     });
 
     /**
      * Watch for image changes
      */
-    gulp.watch(["public/_posts-images/*"], ['jimp']);
+    gulp.watch(["public/_profiles-images/*"], ['jimp']);
     gulp.watch(["public/images/**/*"], function () {
       reload();
       cp.exec('harp compile . www', {stdio: 'inherit'});
@@ -89,8 +89,8 @@ gulp.task('fast-build', ['copy-css-assets', 'uglify'], function () {
 
 
 // Jimp variables
-var imgSrc          = 'public/_posts-images/*',
-    imgDest         = 'public/images/posts/',
+var imgSrc          = 'public/_profiles-images/*',
+    imgDest         = 'public/images/profiles/',
     imgQuality      = 80,
     largeWidth      = harpConfig.globals.breakpoints.large,
     regularWidth    = harpConfig.globals.breakpoints.regular,
@@ -170,7 +170,7 @@ gulp.task('copy-css-assets', function() {
   return gulp.src(
   /** Insert below the css path **/
   ['  ']
-  ).pipe(gulp.dest('./public/css/vendors'));
+  ).pipe(gulp.dest('./public/scss/vendors'));
 });
 
 /**

@@ -1,0 +1,142 @@
+.profile {
+  background: palette(white);
+  padding: ritmo(14) 10px;
+
+  @include mq($from: break-medium) {
+    padding-top: ritmo(35);
+  }
+}
+
+.profile__content {
+  margin: 0 auto;
+  @include container(860px);
+}
+
+.profile__content-image {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding-bottom: 75%;
+  background: palette(grey);
+  position: relative;
+
+  img {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    transform: translateY(-50%);
+  }
+}
+
+.profile__content-image__name {
+  text-align: center;
+  padding: 0 3.5%;
+  position: absolute;
+  bottom: - ritmo(10);
+  width: 100%;
+  z-index: 5;
+
+  h2 {
+    display: block;
+    font-weight: 300;
+    @include ritmo-font-size(25px);
+    background: palette(white);
+    padding-top: ritmo(5);
+    padding-bottom: ritmo(5);
+
+    @include mq($from: break-medium) {
+      @include ritmo-font-size(38px);
+    }
+  }
+}
+
+.profile__content-resume,
+.profile__content-interview {
+  margin: ritmo(6) auto;
+  padding: 0 7.5%;
+}
+
+.profile__content-resume:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin: ritmo(4) auto;
+  background-color: palette(grey);
+}
+
+
+.profile__content-resume__title {
+  font-weight: 300;
+  @include ritmo-font-size(16px);
+  text-transform: uppercase;
+}
+
+.profile__content-resume__item {
+  width: 100%;
+  padding: ritmo(2) 0;
+
+  span {
+    color: palette(grey, mid-dark);
+  }
+}
+
+.profile__content-resume__item-time,
+.profile__content-resume__item-role,
+.profile__content-resume__item-origin {
+  width:20px;
+  height: 20px;
+  vertical-align: text-top;
+  margin-right: 10px;
+}
+
+.profile__content-resume__item-social {
+  margin-top: ritmo(2);
+}
+
+.profile__content-resume__item-social__icon {
+  width:30px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+.profile__content-interview__title {
+  @include ritmo-font-size(16px);
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.profile__content-interview {
+
+  h6 {
+    @include ritmo-font-size(16px);
+  }
+
+  ul li {
+    list-style-type: disc;
+  }
+
+  a {
+    text-decoration: underline;
+    color: palette(black);
+  }
+}
+
+.profile__content-tags {
+  padding: 0 7.5%;
+
+  &:before {
+    content: "";
+    display: block;
+    height: 1px;
+    background: palette(grey);
+    margin-bottom: ritmo(4);
+  }
+}
+
+.profile__content-tags__links {
+  @extend .tags;
+}
