@@ -1,7 +1,5 @@
 +++
 date = "2017-01-18T15:41:41Z"
-title = "index"
-description = "something"
+title = "Portuguese Women in Tech"
+description = "Portuguese Women in Tech"
 +++
-
-This is my homepage
