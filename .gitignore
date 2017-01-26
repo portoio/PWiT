@@ -1,1 +1,7 @@
-public/
+public
+node_modules
+npm-debug.log
+.sass-cache
+Thumbs.db
+.DS_Store
+!.gitkeep
