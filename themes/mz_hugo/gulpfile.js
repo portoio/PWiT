@@ -112,15 +112,25 @@ gulp.task('watch', function(){
   gulp.watch(['../../static/images/*', './static/images/*'], ['jimp']);
 });
 
-gulp.task('serve', function(){
-  return exec('rm -Rf ../../public && hugo serve --source ../../ --renderToDisk', function (err) {
-    console.log("Hugo exited with error: ", err);
+gulp.task('serve', function(callback){
+  exec('rm -Rf ../../public && hugo serve --source ../../ --renderToDisk', function (err) {
+    if (err) {
+      console.log("Hugo exited with error: ", err);
+    }
+    else {
+      callback();
+    }
   }).stdout.pipe(process.stdout);
 });
 
-gulp.task('compile', ['sass', 'scripts'], function(){
-  return exec('rm -Rf ../../public && hugo --source ../../', function (err) {
-    console.log("Hugo exited with error: ", err);
+gulp.task('compile', function(callback){
+  exec('rm -Rf ../../public && hugo --source ../../', function (err) {
+    if (err) {
+      console.log("Hugo exited with error: ", err);
+    }
+    else {
+      callback();
+    }
   }).stdout.pipe(process.stdout);
 });
 
@@ -129,5 +139,18 @@ gulp.task('compile', ['sass', 'scripts'], function(){
  * Aggregator Tasks
  */
 
-gulp.task('build', ['compile', 'jimp']);
-gulp.task('default', ['sass', 'scripts', 'serve', 'jimp', 'watch']);
+gulp.task('build', function(callback) {
+  runSequence(
+    ['sass', 'scripts'],
+    'compile',
+    'jimp',
+    callback
+  );
+});
+gulp.task('default', function(callback){
+  runSequence(
+    ['sass', 'scripts'],
+    ['serve','watch', 'jimp'],
+    callback
+  );
+});
