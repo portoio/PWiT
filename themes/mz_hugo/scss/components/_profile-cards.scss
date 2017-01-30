@@ -34,6 +34,10 @@
       clear:both;
     }
   }
+
+  &.filtro-out {
+    display: none;
+  }
 }
 
 .profile-cards__content-item__link {

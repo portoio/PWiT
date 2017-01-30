@@ -1,4 +1,4 @@
-<li class="profile-cards__content-item">
+<li class="profile-cards__content-item" data-filtro="{{ delimit .Params.tags "," }}">
   <a href="{{ .URL }}" class="profile-cards__content-item__link">
     <div class="profile-cards__content-item__link-image">
       <img src="{{ .Params.image }}" alt="{{ .Title }}" title="{{ .Title }}">

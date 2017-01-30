@@ -27,5 +27,24 @@ $(function() {
   });
 
   $(window).on('resize scroll', fixedHeader);
-
+  filtro();
 });
+
+function filtro() {
+  var $filterControls = $(".intro-section__tags-content__links"),
+  $filterObjects = $(".profile-cards__content-item"),
+  filterOutClass = 'filtro-out';
+
+  $filterControls.click(function(event) {
+    var filterName = $(this).text();
+
+    if (!filterName.length) {
+      return;
+    } else {
+      event.preventDefault();
+    }
+
+    $filterObjects.addClass(filterOutClass).filter("[data-filtro*=" + filterName + "]")
+      .removeClass(filterOutClass);
+  });
+}
