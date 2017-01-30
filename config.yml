@@ -1,4 +1,3 @@
----
 title: "PT Women in Tech"
 baseurl: "http://example.org/"
 languageCode: "en-us"
@@ -10,4 +9,3 @@ taxonomies:
   tag: "tags"
 blackfriday:
   hrefTargetBlank: true
----
