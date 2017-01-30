@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: marzeelabs/portuguese_women_tech # Path to your Github repository
+  repo: lmcorreia/portuguese_women_tech # Path to your Github repository
   branch: develop # Branch to update (master by default)
 
 media_folder: "/static/images/profiles" # Folder where user uploaded files should go
@@ -27,11 +27,14 @@ collections: # A list of collections the CMS should be able to edit
       - label: "Place of Origin"
         name: "placeOfOrigin"
         widget: "string"
+      - label: "Profile Tags (tag1, tag2, tag3)"
+        name: "tags"
+        widget: list
       - label: "Social Links"
         name: "socialLinks"
         widget: "list"
         fields:
-          - label: "Social Network (twitter / linkedin / medium)"
+          - label: "Social Network (twitter / linkedin / medium / facebook / instagram)"
             name: "name"
             widget: "string"
           - label: "URL"
@@ -43,13 +46,18 @@ collections: # A list of collections the CMS should be able to edit
       - label: "Body"
         name: "body"
         widget: "markdown"
-
   - name: "settings"
     label: "Settings"
     files:
-      - name: "general"
-        label: "General settings"
-        file: "config.toml"
+      - label: "Site settings"
+        name: "general"
+        file: "config.yml"
         fields:
-          - {label: "Main site title", name: "title", widget: "string"}
-          - {label: "Main site theme", name: "theme", widget: "string"}
+          - label: "Site title"
+            name: "title"
+            description: "The website's title, used for page titles"
+            widget: "string"
+          - label: "Google Analytics code"
+            name: "googleAnalytics"
+            description: "Google Analytics site identifier (UA-XXXXXXXX-X)"
+            widget: "string"
