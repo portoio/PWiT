@@ -6,22 +6,9 @@
 
     <div class="intro-section__tags-content">
       <div class="intro-section__tags-content__links-wrapper">
-        <a href="#" class="intro-section__tags-content__links">A tag</a>
-        <a href="#" class="intro-section__tags-content__links">Another tag</a>
-        <a href="#" class="intro-section__tags-content__links">One more</a>
-        <a href="#" class="intro-section__tags-content__links">And another</a>
-        <a href="#" class="intro-section__tags-content__links">Again, a tag</a>
-        <a href="#" class="intro-section__tags-content__links">Another tag bites the dust</a>
-        <a href="#" class="intro-section__tags-content__links">Once more</a>
-        <a href="#" class="intro-section__tags-content__links">And another</a>
-        <a href="#" class="intro-section__tags-content__links">Yeah! A tag</a>
-        <a href="#" class="intro-section__tags-content__links">The return of the Tag</a>
-        <a href="#" class="intro-section__tags-content__links">The mighty tag</a>
-        <a href="#" class="intro-section__tags-content__links">Have you seen a tag?</a>
-        <a href="#" class="intro-section__tags-content__links">Me? Just a tag</a>
-        <a href="#" class="intro-section__tags-content__links">Tagging along</a>
-        <a href="#" class="intro-section__tags-content__links">Tagger, the tag</a>
-        <a href="#" class="intro-section__tags-content__links">The Taggster</a>
+        {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+        <a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}" class="intro-section__tags-content__links">{{ $name }}</a>
+        {{ end }}
       </div>
     </div>
 
