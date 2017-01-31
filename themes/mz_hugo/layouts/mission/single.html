@@ -3,7 +3,7 @@
   <div class="mission-section__content">
     <h6 class="mission-content__title">{{ .Description }}</h6>
     {{ .Content }}
-    <a href="participate" class="mission-section__content__link-participate">Want to be part of this community?</a>
+    <a href='{{ "/participate" | relLangURL }}' class="mission-section__content__link-participate">Want to be part of this community?</a>
   </div>
 </div>
 {{ end }}
