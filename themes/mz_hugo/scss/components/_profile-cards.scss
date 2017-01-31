@@ -46,7 +46,7 @@
 }
 
 .profile-cards__content-item__link-image {
-  background: palette(grey);
+  background: palette(black);
   position: relative;
   padding-bottom: 66.66%;
   width: 100%;
@@ -70,11 +70,12 @@
 
   img {
     position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: 100%;
+    max-width: none;
+    transform: translate3d(-50%, -50%, 0);
   }
 }
 

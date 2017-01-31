@@ -33,17 +33,17 @@
   position: relative;
   width: 100%;
   padding-bottom: 75%;
-  background: palette(grey);
+  background: palette(black);
   position: relative;
 
   img {
     position: absolute;
     top: 50%;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: 1;
-    transform: translateY(-50%);
+    left: 50%;
+    width: auto;
+    height: 100%;
+    max-width: none;
+    transform: translate3d(-50%, -50%, 0);
   }
 }
 
