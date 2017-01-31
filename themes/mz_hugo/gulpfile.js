@@ -51,4 +51,12 @@ gulp.task('build', ['sass', 'scripts'], function() {
   }).stdout.pipe(process.stdout).stderr.pipe(process.stderr);
 });
 
+gulp.task('netlify', ['sass', 'scripts'], function() {
+  return exec('hugo_0.18 -s ../../', function (err) {
+    if (err) {
+      console.log("Hugo exited with error: ", err);
+    }
+  });
+});
+
 gulp.task('default', ['serve']);
