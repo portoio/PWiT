@@ -1,9 +1,13 @@
 var ProfilePreview = createClass({
   render: function() {
     var entry = this.props.entry;
-    var body = this.props.widgetFor('body');
-    var image = entry.getIn(['data', 'image']);
-    var profileImage = this.props.getAsset(image);
+
+    var entryTitle = entry.getIn(['data', 'title']);
+    var entryImage = entry.getIn(['data', 'image']) || 'default.jpg';
+    var entryTimeInTech = entry.getIn(['data', 'timeInTech']);
+    var entryDescription = entry.getIn(['data', 'description']);
+    var entryPlaceOfOrigin = entry.getIn(['data', 'placeOfOrigin']);
+    var entryBody = this.props.widgetFor('body');
 
     return h(
       "div",
@@ -126,7 +130,7 @@ var ProfilePreview = createClass({
               h(
                 "div",
                 { "className": "profile-alt__content-image" },
-                h("img", { src: profileImage.toString(), alt: entry.getIn(['data', 'title']), title: entry.getIn(['data', 'title']) })
+                h("img", { src: entryImage, alt: entryTitle, title: entryTitle })
               )
             ),
             h(
@@ -141,7 +145,7 @@ var ProfilePreview = createClass({
                   h(
                     "h2",
                     null,
-                    entry.getIn(['data', 'title'])
+                    entryTitle
                   )
                 ),
                 h(
@@ -162,7 +166,7 @@ var ProfilePreview = createClass({
                     null,
                     "Time in tech "
                   ),
-                  entry.getIn(['data', 'timeInTech'])
+                  entryTimeInTech
                 ),
                 h(
                   "div",
@@ -177,7 +181,7 @@ var ProfilePreview = createClass({
                     null,
                     "Current role "
                   ),
-                  entry.getIn(['data', 'description'])
+                  entryDescription
                 ),
                 h(
                   "div",
@@ -192,7 +196,7 @@ var ProfilePreview = createClass({
                     null,
                     "Place of origin "
                   ),
-                  entry.getIn(['data', 'placeOfOrigin'])
+                  entryPlaceOfOrigin
                 ),
                 h(
                   "div",
@@ -210,7 +214,7 @@ var ProfilePreview = createClass({
               { "className": "profile-alt__content-interview__title" },
               "Tell us more about you:"
             ),
-            body
+            entryBody
           ),
           h(
             "div",
