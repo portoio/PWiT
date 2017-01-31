@@ -11,3 +11,8 @@
     color: palette(white);
   }
 }
+
+.tags-section__title {
+  @extend .intro-section__title;
+  @include ritmo-font-size(28px);
+}

@@ -81,3 +81,12 @@
 .intro-section__tags-content__links {
   @extend .tags;
 }
+
+.intro-section__tags-content__links--active {
+  display: inline-block;
+  padding: ritmo() 15px;
+  margin: ritmo() 5px;
+  border: palette(white) 1px solid;
+  color: palette(white) !important;
+  background: palette(black);
+}
