@@ -7,6 +7,7 @@ var ProfilePreview = createClass({
     var entryTimeInTech = entry.getIn(['data', 'timeInTech']);
     var entryDescription = entry.getIn(['data', 'description']);
     var entryPlaceOfOrigin = entry.getIn(['data', 'placeOfOrigin']);
+    var entrySocialLinks = entry.getIn(['data', 'socialLinks']) || [];
     var entryBody = this.props.widgetFor('body');
 
     return h(
@@ -201,7 +202,21 @@ var ProfilePreview = createClass({
                 h(
                   "div",
                   { "className": "profile-alt__content-resume__item-social" },
-                  null
+                  entrySocialLinks.map(function(entryLink){
+                    return h(
+                      "a",
+                      { "href": entryLink.getIn(['url']), "target": "_blank" },
+                      h(
+                        "svg",
+                        { "className": "profile-alt__content-resume__item-social__icon" },
+                        h(
+                          "use",
+                          { "href": "#" + entryLink.getIn(['name']) + "-icon" },
+                          null
+                        )
+                      )
+                    );
+                  })
                 )
               )
             )
