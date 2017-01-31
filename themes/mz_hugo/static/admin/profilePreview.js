@@ -9,6 +9,7 @@ var ProfilePreview = createClass({
     var entryPlaceOfOrigin = entry.getIn(['data', 'placeOfOrigin']);
     var entrySocialLinks = entry.getIn(['data', 'socialLinks']) || [];
     var entryBody = this.props.widgetFor('body');
+    var entryTags = entry.getIn(['data', 'tags']) || [];
 
     return h(
       "div",
@@ -234,7 +235,13 @@ var ProfilePreview = createClass({
           h(
             "div",
             { "className": "profile-alt__content-tags" },
-            null
+            entryTags.map(function(tag){
+              return h(
+                "a",
+                { "className": "profile-alt__content-tags__links" },
+                tag
+              );
+            })
           )
         )
       )
