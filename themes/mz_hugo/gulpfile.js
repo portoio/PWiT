@@ -134,11 +134,29 @@ gulp.task('compile', function(callback){
   }).stdout.pipe(process.stdout);
 });
 
+gulp.task('compile-netlify', function(callback){
+  exec('rm -Rf ../../public && hugo_0.18 --source ../../', function (err) {
+    if (err) {
+      console.log("Hugo exited with error: ", err);
+    }
+    else {
+      callback();
+    }
+  }).stdout.pipe(process.stdout);
+});
 
 /**
  * Aggregator Tasks
  */
 
+gulp.task('netlify', function(callback) {
+  runSequence(
+    ['sass', 'scripts'],
+    'compile-netlify',
+    'jimp',
+    callback
+  );
+});
 gulp.task('build', function(callback) {
   runSequence(
     ['sass', 'scripts'],

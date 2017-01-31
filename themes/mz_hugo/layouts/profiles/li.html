@@ -1,4 +1,4 @@
-<li class="profile-cards__content-item">
+<li class="profile-cards__content-item" data-filtro="{{ delimit (apply .Params.tags "urlize" ".") "," }}">
   <a href="{{ .URL }}" class="profile-cards__content-item__link">
     <div class="profile-cards__content-item__link-image">
       {{ $src := .Params.image }}
