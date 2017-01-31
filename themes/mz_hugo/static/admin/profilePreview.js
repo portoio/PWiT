@@ -192,7 +192,7 @@ var ProfilePreview = createClass({
                     null,
                     "Place of origin "
                   ),
-                  entry.getIn(['data', 'timeInTech'])
+                  entry.getIn(['data', 'placeOfOrigin'])
                 ),
                 h(
                   "div",
