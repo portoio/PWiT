@@ -39,7 +39,7 @@
   width: 100%;
   z-index: 5;
 
-  h2 {
+  h1 {
     display: block;
     font-weight: 300;
     @include ritmo-font-size(25px);
@@ -111,7 +111,7 @@
 
 .profile__content-interview {
 
-  h6 {
+  h2 {
     @include ritmo-font-size(16px);
   }
 

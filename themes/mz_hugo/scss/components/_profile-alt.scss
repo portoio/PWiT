@@ -74,7 +74,7 @@
     margin: 0;
   }
 
-  h2 {
+  h1 {
     display: block;
     font-weight: 300;
     @include ritmo-font-size(22px);
@@ -151,7 +151,7 @@
 
 .profile-alt__content-interview {
 
-  h6 {
+  h1 {
     @include ritmo-font-size(16px);
   }
 

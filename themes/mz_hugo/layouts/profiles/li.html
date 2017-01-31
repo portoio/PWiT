@@ -6,7 +6,7 @@
       {{ $ext := substr $src (sub (len $src) 4) }}
       <img src="{{ $src }}" srcset="{{ $name }}-small{{ $ext }} 460w, {{ $name }}-medium{{ $ext }} 680w, {{ $name }}-regular{{ $ext }} 820w, {{ $name }}-large{{ $ext }} 1400w," sizes="(max-width: 980px) 65vw, (min-width: 981px) 70vw" alt="{{ .Title }}" title="{{ .Title }}" />
     </div>
-    <h5 class="profile-cards__content-item__link-name">{{ .Title }}</h5>
-    <h6 class="profile-cards__content-item__link-role">{{ .Description }}</h6>
+    <h1 class="profile-cards__content-item__link-name">{{ .Title }}</h1>
+    <h2 class="profile-cards__content-item__link-role">{{ .Description }}</h2>
   </a>
 </li>
