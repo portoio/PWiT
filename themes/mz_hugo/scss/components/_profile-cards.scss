@@ -81,6 +81,7 @@
 
 .profile-cards__content-item__link-name {
   margin-top: ritmo(3);
+  margin-bottom: ritmo(2);
   font-weight: 700;
   @include ritmo-font-size(14px);
   @include ritmo-leading(3);
