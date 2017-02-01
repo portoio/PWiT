@@ -7,7 +7,7 @@ placeOfOrigin: adfsgfhg
 socialLinks:
   - name: twitter
     url: gfhjkk
-image: /images/profiles/ines_silva_new-test-regular.jpg
+image: /images/profiles/ines_silva_test_horizontal.jpg
 ---
 
 kjsfgwjfhçwejfhwçefn4
