@@ -73,6 +73,7 @@
   font-weight: 300;
   @include ritmo-font-size(16px);
   text-transform: uppercase;
+  margin: 0 0 .625rem;
 }
 
 .profile__content-resume__item {
@@ -113,6 +114,7 @@
 
   h2 {
     @include ritmo-font-size(16px);
+    margin: 0 0 .3125rem;
   }
 
   ul li {
