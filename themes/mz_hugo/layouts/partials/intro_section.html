@@ -1,7 +1,9 @@
 <div class="intro-section">
+
+ {{ if .IsHome }}
+
   <h6 class="intro-section__title"> A portrait of the women that help make the difference in the industry</h6>
 
-  {{ if .IsHome }}
   <div class="intro-section__tags-container">
     <input id="intro-section__tags" name="tags-homepage" type="checkbox" class="intro-section__tags"/>
     <label for="intro-section__tags">Explore</label>
@@ -13,6 +15,11 @@
       </div>
     </div>
   </div>
+
+  {{ else }}
+
+    <h6 class="tags-section__title"> {{ .Title }} </h6>
+
   {{ end }}
 
 </div>

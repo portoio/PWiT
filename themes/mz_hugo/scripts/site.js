@@ -33,10 +33,13 @@ $(function() {
 function filtro() {
   var $filterControls = $(".intro-section__tags-content__links"),
   $filterObjects = $(".profile-cards__content-item"),
-  filterOutClass = 'filtro-out';
+  filterOutClass = 'filtro-out',
+  controlActiveClass = 'intro-section__tags-content__links--active';
 
   $filterControls.click(function(event) {
     var filterName = $(this).text();
+    $filterControls.removeClass(controlActiveClass);
+    $(this).addClass(controlActiveClass);
 
     if (!filterName.length) {
       return;
