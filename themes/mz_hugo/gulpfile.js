@@ -5,7 +5,8 @@ var gulp = require('gulp'),
   nano = require('gulp-cssnano'),
   runSequence = require('run-sequence'),
   exec = require('child_process').exec,
-  uglify = require('gulp-uglify');
+  uglify = require('gulp-uglify'),
+  jimp = require('gulp-jimp');
 
 
 /**
@@ -27,36 +28,147 @@ gulp.task('scripts', function() {
     .pipe(gulp.dest('./static/js'));
 });
 
+// Jimp variables
+var imgSrc          = ['../../static/images/**/*', './static/images/**/*'],
+    imgDest         = '../../public/images/',
+    imgQuality      = 80,
+    largeWidth      = 1400,
+    regularWidth    = 820,
+    mediumWidth     = 680,
+    smallWidth      = 460;
+
+// Clean the image folder
+gulp.task('jimp-clean', function() {
+  return exec('rm ' + imgDest + '*', {stdio: 'inherit'});
+});
+
+// Copy original image
+gulp.task('jimp-original', function() {
+  return gulp.src(imgSrc).pipe(gulp.dest(imgDest));
+});
+
+// Create large image
+gulp.task('jimp-large', function() {
+  return gulp.src(imgSrc).pipe(jimp({
+    '-large': {
+      resize: { width: largeWidth, height: jimp.AUTO },
+      quality: imgQuality
+    }
+  })).pipe(gulp.dest(imgDest));
+});
+
+// Create Regular image
+gulp.task('jimp-regular', function() {
+  // Regular image
+  return gulp.src(imgSrc).pipe(jimp({
+    '-regular': {
+      resize: { width: regularWidth, height: jimp.AUTO },
+      quality: imgQuality
+    }
+  })).pipe(gulp.dest(imgDest));
+});
+
+// Create Medium image
+gulp.task('jimp-medium', function() {
+  return gulp.src(imgSrc).pipe(jimp({
+    '-medium': {
+      resize: { width: mediumWidth, height: jimp.AUTO },
+      quality: imgQuality
+    }
+  })).pipe(gulp.dest(imgDest));
+});
+
+// Create Small image
+gulp.task('jimp-small', function() {
+  return gulp.src(imgSrc).pipe(jimp({
+    '-small': {
+      resize: { width: smallWidth, height: jimp.AUTO },
+      quality: imgQuality
+    }
+  })).pipe(gulp.dest(imgDest));
+});
+
+/**
+ * Create responsive images with JIMP
+ *
+ * We divide this into several tasks so we can have a callback
+ * and make sure 'build' runs after it's finished.
+ */
+gulp.task('jimp', function (callback) {
+  runSequence(
+    'jimp-clean',
+    ['jimp-original','jimp-large', 'jimp-regular', 'jimp-medium', 'jimp-small'],
+    callback
+  );
+});
+
 /**
  * Watch / Serve
  */
 
-gulp.task('serve', function(){
+gulp.task('watch', function(){
   gulp.watch('./scss/**/*.scss', ['sass']);
   gulp.watch('./scripts/**/*.js', ['scripts']);
+  gulp.watch(['../../static/images/*', './static/images/*'], ['jimp']);
+});
 
-  return exec('hugo server -s ../../', function (err) {
-    console.log("Hugo exited with error: ", err);
+gulp.task('serve', function(callback){
+  exec('rm -Rf ../../public && hugo serve --source ../../ --renderToDisk', function (err) {
+    if (err) {
+      console.log("Hugo exited with error: ", err);
+    }
+    else {
+      callback();
+    }
   }).stdout.pipe(process.stdout);
 });
 
+gulp.task('compile', function(callback){
+  exec('rm -Rf ../../public && hugo --source ../../', function (err) {
+    if (err) {
+      console.log("Hugo exited with error: ", err);
+    }
+    else {
+      callback();
+    }
+  }).stdout.pipe(process.stdout);
+});
+
+gulp.task('compile-netlify', function(callback){
+  exec('rm -Rf ../../public && hugo_0.18 --source ../../', function (err) {
+    if (err) {
+      console.log("Hugo exited with error: ", err);
+    }
+    else {
+      callback();
+    }
+  }).stdout.pipe(process.stdout);
+});
 
 /**
  * Aggregator Tasks
  */
 
-gulp.task('build', ['sass', 'scripts'], function() {
-  return exec('hugo -s ../../', function (err) {
-    console.log("Hugo exited with error: ", err);
-  }).stdout.pipe(process.stdout).stderr.pipe(process.stderr);
+gulp.task('netlify', function(callback) {
+  runSequence(
+    ['sass', 'scripts'],
+    'compile-netlify',
+    'jimp',
+    callback
+  );
 });
-
-gulp.task('netlify', ['sass', 'scripts'], function() {
-  return exec('hugo_0.18 -s ../../', function (err) {
-    if (err) {
-      console.log("Hugo exited with error: ", err);
-    }
-  });
+gulp.task('build', function(callback) {
+  runSequence(
+    ['sass', 'scripts'],
+    'compile',
+    'jimp',
+    callback
+  );
 });
-
-gulp.task('default', ['serve']);
+gulp.task('default', function(callback){
+  runSequence(
+    ['sass', 'scripts'],
+    ['serve','watch', 'jimp'],
+    callback
+  );
+});

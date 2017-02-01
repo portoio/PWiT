@@ -5,7 +5,10 @@
     <div class="profile-alt__content-header">
       <div class="profile-alt__content-image__container">
         <div class="profile-alt__content-image">
-          <img src="{{ .Params.image }}" alt="{{ .Title }}" title="{{ .Title }}">
+          {{ $src := .Params.image }}
+          {{ $name := substr $src 0 -4 }}
+          {{ $ext := substr $src (sub (len $src) 4) }}
+          <img src="{{ $src }}" srcset="{{ $name }}-small{{ $ext }} 460w, {{ $name }}-medium{{ $ext }} 680w, {{ $name }}-regular{{ $ext }} 820w, {{ $name }}-large{{ $ext }} 1400w," sizes="(max-width: 980px) 65vw, (min-width: 981px) 70vw" alt="{{ .Title }}" title="{{ .Title }}" />
         </div>
       </div>
 
