@@ -1,8 +1,9 @@
 ---
 date: '2017-01-18T15:41:41Z'
+image: /images/profiles/ines_silva_new-test.jpg
 title: Inês Santos Silva
-description: Head of Operations & Growth @ Platforme
 timeInTech: 6 years
+description: Head of Operations & Growth @ Platforme
 placeOfOrigin: 'Porto, Portugal'
 socialLinks:
   - name: twitter
@@ -13,11 +14,13 @@ socialLinks:
     url: 'https://medium.com/@isss111'
   - name: facebook
     url: 'https://marzeelabs.org'
-image: /images/profiles/ines_silva_new-test.jpg
 tags:
   - these
   - are
   - tags
+  - developer
+  - awesome woman
+  - etc
 ---
 
 ## Early years and where you came from?
