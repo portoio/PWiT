@@ -14,9 +14,9 @@ tags:
   - Marketing
 ---
 
-**\*\*Early years and where you came from? \*\***
+**Early years and where you came from?**
 
-I was born in Porto. With a degree in Management from FEP, I started working in finance for Siemens, a German company. I moved to Beijing in 2008 to study Mandarin and start working in the fashion industry. After Inov Contact program in Mexico City, I moved back to Porto to work for Parfois as Marketing Manager where I stayed for 4 years
+I was born in Porto. With a degree in Management from FEP, I started working in finance for Siemens, a German company. I moved to Beijing in 2008 to study Mandarin and start working in the fashion industry. After Inov Contact program in Mexico City, I moved back to Porto to work for Parfois as Marketing Manager where I stayed for 4 years.
 
 **How were you introduced to the world of tech?**
 
@@ -42,7 +42,7 @@ Just surround yourself of the best people you can and be confident about the dec
 
 Work – gym (lunch time) whenever I can – work again and then cooking dinner (it relaxes me in the end of the day).
 
-**\*\*What's the best advice you've ever received? \*\***
+**What's the best advice you've ever received?**
 
 Don’t waste your time with things that don’t add value to you and your team. Focus!
 
