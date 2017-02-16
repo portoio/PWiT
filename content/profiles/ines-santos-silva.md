@@ -12,14 +12,11 @@ socialLinks:
     url: 'https://www.linkedin.com/in/inessantossilva'
   - name: medium
     url: 'https://medium.com/@isss111'
-  - name: facebook
-    url: 'https://marzeelabs.org'
 tags:
   - Managing Partner
   - Founder
   - Growth
   - Innovation
-  - Future of Work
 ---
 
 ## Early years and where you came from?
@@ -28,8 +25,7 @@ I was born in a small village close to Porto and at 18 I went to the University 
 
 ## How were you introduced to the world of tech?
 
-I always knew I was somehow geeky. I was always looking for new gadgets and in my teenage years, I spent more hours that I like to admit playing PlayStation, GameBoy and computer. My summer holidays and weekends were spent between books (I love to read) and video games.
-However, my real introduction to tech happen when I was in college. In 2007, I joined FEP Junior Consulting (student-led organization that does consultancy work) and I had my first contact with incubators and startups. Then, through a series of lucky moments, I ended up organizing Barcamp Porto in 2010 and that’s where I fell in love with technology and entrepreneurship. Since then, everything I’ve done has been driven by curiosity and a deep passion for connecting people and ideas.
+I always knew I was somehow geeky. I was always looking for new gadgets and in my teenage years, I spent more hours that I like to admit playing PlayStation, GameBoy and computer. My summer holidays and weekends were spent between books (I love to read) and video games. However, my real introduction to tech happen when I was in college. In 2007, I joined FEP Junior Consulting (student-led organization that does consultancy work) and I had my first contact with incubators and startups. Then, through a series of lucky moments, I ended up organizing Barcamp Porto in 2010 and that’s where I fell in love with technology and entrepreneurship. Since then, everything I’ve done has been driven by curiosity and a deep passion for connecting people and ideas.
 
 ## Walk me through your work and what you are doing now.
 
@@ -41,13 +37,11 @@ I love connecting people and ideas.
 
 ## How do you think that your background and knowledge impact the way you
 
-approach your work?
-Because of my non-technical background, it’s easier for me to put aside the technicalities of building a product and focus on the impact that product will have in the user’s life.
+approach your work? Because of my non-technical background, it’s easier for me to put aside the technicalities of building a product and focus on the impact that product will have in the user’s life.
 
 ## What advice do you have for young women that want to get into tech and
 
-don’t know where to start?
-Start attending tech meetups like Porto/Minho/Coimbra Startup Coffee, BREAK, Girls Lean in or Portugal Girl Geek Dinners. Get actively involved by adding value to the other participants and by helping out the organizers. After that, things will just happen.
+don’t know where to start? Start attending tech meetups like Porto/Minho/Coimbra Startup Coffee, BREAK, Girls Lean in or Portugal Girl Geek Dinners. Get actively involved by adding value to the other participants and by helping out the organizers. After that, things will just happen.
 
 ## Walk me through a day in your life.
 
@@ -59,7 +53,9 @@ I honestly don’t know. What I do know is that a lot of what I am was influence
 
 ## What apps/software/tools can't you live without?
 
-On a very practical level I can’t live without Gmail,  Sunrise and TOPDOX. These 3 apps run my life. Gmail to connect with people. Sunrise to make sure I don’t forget any appointment. TOPDOX to access & edit my documents wherever they are. Twitter, Facebook and LinkedIn are also super important to me.
+On a very practical 
+
+level I can’t live without Gmail, Sunrise and TOPDOX. These 3 apps run my life. Gmail to connect with people. Sunrise to make sure I don’t forget any appointment. TOPDOX to access & edit my documents wherever they are. Twitter, Facebook and LinkedIn are also super important to me.
 
 ## Links that you want to share?
 
