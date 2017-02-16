@@ -3,7 +3,7 @@ date: '2017-01-18T15:41:41Z'
 image: /images/profiles/ines_silva_new-test.jpg
 title: Inês Santos Silva
 timeInTech: 6 years
-description: Head of Operations & Growth @ Platforme
+description: Managing Partner @ Aliados Consulting
 placeOfOrigin: 'Porto, Portugal'
 socialLinks:
   - name: twitter
