@@ -15,12 +15,11 @@ socialLinks:
   - name: facebook
     url: 'https://marzeelabs.org'
 tags:
-  - these
-  - are
-  - tags
-  - developer
-  - awesome woman
-  - etc
+  - Managing Partner
+  - Founder
+  - Growth
+  - Innovation
+  - Future of Work
 ---
 
 ## Early years and where you came from?
