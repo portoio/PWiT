@@ -6,7 +6,7 @@ timeInTech: 4 years
 description: Co-Founder Talkdesk
 placeOfOrigin: 'Lisbon, Portugal'
 socialLinks:
-  - name: Linkedin
+  - name: linkedin
     url: 'https://pt.linkedin.com/in/cristinanfonseca/pt'
 tags:
   - Developer
