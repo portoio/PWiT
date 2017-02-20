@@ -6,7 +6,7 @@ timeInTech: 5 years
 description: Head of Communications @ Startup Lisboa
 placeOfOrigin: 'Lisbon, Portugal'
 socialLinks:
-  - name: Linkedin
+  - name: linkedin
     url: 'https://pt.linkedin.com/in/anasantiagolx/pt'
 tags:
   - Communication
