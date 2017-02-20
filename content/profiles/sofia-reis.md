@@ -6,7 +6,7 @@ timeInTech: 5 years
 description: Ecosystem Explorer @ Mindera
 placeOfOrigin: 'Porto, Portugal'
 socialLinks:
-  - name: Linkedin
+  - name: linkedin
     url: 'https://pt.linkedin.com/in/sofiamartinsreis/pt'
 tags:
   - Project Manager
