@@ -6,7 +6,7 @@ timeInTech: 4 years
 description: Brand Manager @ Farfetch
 placeOfOrigin: 'Porto, Portugal'
 socialLinks:
-  - name: Linkedin
+  - name: linkedin
     url: 'https://pt.linkedin.com/in/acamposcarreira/pt'
 tags:
   - Brand Manager
