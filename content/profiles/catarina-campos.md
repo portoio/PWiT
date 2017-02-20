@@ -6,7 +6,7 @@ timeInTech: 4 years
 description: Developer @ Future Balloons + Co-Founder of Girls Lean In
 placeOfOrigin: 'Rebordosa, Portugal'
 socialLinks:
-  - name: Linkedin
+  - name: linkedin
     url: 'https://pt.linkedin.com/in/catarina-campos-51170725'
 tags:
   - Developer
