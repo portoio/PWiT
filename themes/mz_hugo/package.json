@@ -2,7 +2,7 @@
   "name": "portuguese_women_tech",
   "version": "0.2.0",
   "main": "gulpfile.js",
-  "author": "Marzee Labs <info@marzeelabs.org>",
+  "author": "Marzee Labs <info@marzeelabs.org> (https://marzeelabs.org)",
   "license": "GPLv3",
   "dependencies": {
     "gulp": "^3.9.1",
