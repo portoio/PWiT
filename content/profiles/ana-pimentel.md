@@ -21,9 +21,7 @@ I come from Figueira da Foz, a small city near the sea in the center of Portugal
 
 **How were you introduced to the world of the Portuguese tech industry?**
 
-I started writing about entrepreneurship and tech startups in
-
-* 
+I started writing about entrepreneurship and tech startups in 2009/2010, when the Lisbon startup scene was emerging. The stories of the people that are now crossing seas and helping to put our country in the international startup radar come from those times. I saw the rising of some of our first association, incubators and most well-known entrepreneurs. And my passion for the subject grew up as the startup scene was also growing.
 
 **Walk me through your work and what you are doing now in the tech industry.**
 
