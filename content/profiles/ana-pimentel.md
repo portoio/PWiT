@@ -19,9 +19,9 @@ tags:
 
 I come from Figueira da Foz, a small city near the sea in the center of Portugal, where I was born and raised. I moved to Lisbon in 2003 to study Science of Communication. I lived for 6 months in Pisa, Italy, in 2007, under the Erasmus program and then returned to Lisbon, the city that is now also my home.
 
-How were you introduced to the world of the Portuguese tech industry?
+**How were you introduced to the world of the Portuguese tech industry?**
 
-I started writing about entrepreneurship and tech startups in 2009/2010, when the Lisbon startup scene was emerging. The stories of the people that are now crossing seas and helping to put our country in the international startup radar come from those times. I saw the rising of some of our first association, incubators and most well-known entrepreneurs. And my passion for the subject grew up as the startup scene was also growing.
+I started writing about entrepreneurship and tech startups in
 
 * 
 
@@ -33,7 +33,7 @@ I’m a journalist in Observador, an online media that is also a startup. We wer
 
 **What part of what you do, you love the most?**
 
-To be able to tell the stories of the people that may be redefining our economy - although we will only be aware of that it in the future. Writing about the changes that the digital revolution is making not only in the economy, but in almost every single aspect of our life - the way we communicate, we work, we see thing, we date, we choose our lifestyle, we manage our time -  is writing while the world is also discovering how to deal with all of that. At the same time. It’s risky, but it’s  overwhelming. My job is to explain what is happening know, but also what is still yet to come - what are the benefits and the fears of all this digital revolution. And I
+To be able to tell the stories of the people that may be redefining our economy - although we will only be aware of that it in the future. Writing about the changes that the digital revolution is making not only in the economy, but in almost every single aspect of our life - the way we communicate, we work, we see thing, we date, we choose our lifestyle, we manage our time -  is writing while the world is also discovering how to deal with all of that. At the same time. It’s risky, but it’s  overwhelming. My job is to explain what is happening know, but also what is still yet to come - what are the benefits and the fears of all this digital revolution.
 
 * 
 
