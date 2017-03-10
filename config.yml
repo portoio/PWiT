@@ -1,5 +1,5 @@
 title: "PT Women in Tech"
-baseurl: "http://example.org/"
+baseurl: "https://portuguesewomenintech.com"
 languageCode: "en-us"
 theme: "mz_hugo"
 contentdir: "content"
@@ -9,3 +9,5 @@ taxonomies:
   tag: "tags"
 blackfriday:
   hrefTargetBlank: true
+params:
+  description: "A portrait of the women that help make the difference in the portuguese tech industry."

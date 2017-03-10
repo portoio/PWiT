@@ -1,8 +1,8 @@
-+++
-date = "2017-01-18T15:41:41Z"
-title = "index"
-description = "A portrait of the women that help make the difference in the industry"
-+++
+---
+date: "2017-01-18T15:41:41Z"
+title: "Who are the Women in the Portuguese Tech Industry?"
+description: "A portrait of the women that help make the difference in the industry."
+---
 
 The Portuguese entrepreneurial ecosystem is live and kicking with lots of startups that are going global, international investments, amazing events and fantastic tech people that are working hard and non-stop to grow their startups and scale from Portugal to the World.
 
