@@ -10,6 +10,8 @@ socialLinks:
     url: 'https://twitter.com/anascpimentel'
   - name: instagram
     url: 'https://www.instagram.com/anascpimentel'
+  - name: website
+    url: 'http://observador.pt/'
 tags:
   - journalist
   - explorer
