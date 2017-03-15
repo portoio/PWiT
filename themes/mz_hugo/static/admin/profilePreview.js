@@ -145,13 +145,13 @@ var ProfilePreview = createClass({
                   "div",
                   { "className": "profile-alt__content-resume__name" },
                   h(
-                    "h2",
+                    "h1",
                     null,
                     entryTitle
                   )
                 ),
                 h(
-                  "h5",
+                  "h1",
                   { "className": "profile-alt__content-resume__title" },
                   "Profile"
                 ),
