@@ -42,3 +42,85 @@
     color: palette(white);
   }
 }
+
+/*
+** Partners section
+*/
+
+.mission-partners {
+  @include container(860px);
+
+  &:before {
+    content: "";
+    display: block;
+    width: 95%;
+    margin: 0 auto ritmo(6) auto;
+    height: 1px;
+    background: palette(grey);
+  }
+}
+
+.mission-partner {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid palette(grey);
+  margin-bottom: ritmo(6);
+  padding-bottom: ritmo(6);
+
+  &:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: ritmo(6);
+
+    .mission-partner__logo-img {
+      max-width: 150px;
+
+      @include mq($until: break-small) {
+        max-width: 150px;
+      }
+    }
+  }
+
+  @include mq($from: break-small) {
+    align-items: flex-start;
+    flex-wrap: nowrap;
+  }
+}
+
+.mission-partner__logo {
+  width: 100%;
+
+  @include mq($from: break-small) {
+    width: 20%;
+    margin-right: 30px;
+  }
+}
+
+.mission-partner__logo-img {
+  display: block;
+  margin: 0 auto;
+  max-width: 130px;
+
+  @include mq($until: break-small) {
+    max-width: 100px;
+    margin-bottom: 30px;
+  }
+}
+
+.mission-partner__presentation {
+  text-align: center;
+
+  @include mq($from: break-small) {
+    text-align: left;
+    width: 80%;
+  }
+
+  a {
+    font-weight: 700;
+    color: palette(black);
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
