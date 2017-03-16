@@ -2,7 +2,7 @@
 date: 2017-02-15T23:38:08.917Z
 image: /images/profiles/Cristina Fonseca.jpg
 title: Cristina Fonseca
-timeInTech: 4 years
+timeInTech: 7 years
 description: Co-Founder Talkdesk
 placeOfOrigin: 'Lisbon, Portugal'
 socialLinks:
