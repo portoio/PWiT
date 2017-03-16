@@ -89,7 +89,7 @@ they need as well as meeting with different stakeholders of the business.
 **What's the best advice you've ever received?**
 
 Listen to everyone but
-follow your own instincts
+follow your own instincts.
 
 --
 
