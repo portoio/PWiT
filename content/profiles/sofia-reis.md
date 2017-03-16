@@ -9,8 +9,9 @@ socialLinks:
   - name: linkedin
     url: 'https://pt.linkedin.com/in/sofiamartinsreis/pt'
 tags:
-  - Project Manager
   - Explorer
+  - Manager
+  - Innovation
 ---
 
 **Early years and where you came from?**
