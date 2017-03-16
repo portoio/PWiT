@@ -24,7 +24,7 @@ and raised. I moved to Lisbon in 2003 to study Science of Communication. I
 lived for 6 months in Pisa, Italy, in 2007, under the Erasmus program and then
 returned to Lisbon, the city that is also my home.
 
-–
+—
 
 **How were you
 introduced to the world of the Portuguese tech industry?**
@@ -37,7 +37,7 @@ then. I saw the rising of some of our first associations, incubators and most
 well known entrepreneurs. And my passion for the subject grew as the startup
 scene was also growing.
 
-–
+—
 
 **Walk me through
 your work and what you are doing now in the tech industry.**
@@ -51,7 +51,7 @@ specializing my career in subjects that are important for the digital economy -
 startups, digital revolution, venture capitalism, businesses based in tech
 innovation. I sign a weekly newsletter on these subjects.
 
-–
+—
 
 **What part of what
 you do, you love the most?**
@@ -67,7 +67,7 @@ it’s overwhelming. My job is to explain what is happening now, but also what i
 still yet to come - what are the benefits and the fears of this digital
 revolution.
 
-–
+—
 
 **How do you think
 that your background and knowledge impact the way you approach your work in the
@@ -78,7 +78,7 @@ understand more what is happening in the digital economy, with the eyes of a
 non-tech person, is crucial to explain to all kinds of people (tech lovers or
 not) the insights, benefits, problems and fears of the tech world.
 
-–
+—
 
 **What advice do
 you have for young women that want to get into tech and don’t know where to
