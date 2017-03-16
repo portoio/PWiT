@@ -34,7 +34,7 @@ were you introduced to the world of the Portuguese tech industry?**
 When I was about 9 years old one of my
 favourite toys was [Spelling B from Texas Instruments](https://www.amazon.com/Original-SPELLING-Learning-Texas-Instruments/dp/B00ANSVZJE). It looked like a big orange calculator but it was a sort of
 mini-computer to help learn English. I sometimes wonder how much that
-influenced me J Later, a pivotal moment
+influenced me later, a pivotal moment
 for me was signing up to a post degree in Information Management &
 Marketing Intelligence back in 2008: that’s where my need to understand the role
 of tech in businesses and societies started to get really serious.
@@ -129,7 +129,7 @@ Twitter! It’s where I find the most interesting content and people.
 --
 
 **Links that you want to
-share?** 
+share?**
 
 Not some
 I’ve been working on but something I’ve been thinking about: we need deeper
