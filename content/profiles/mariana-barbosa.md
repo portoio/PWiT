@@ -3,8 +3,8 @@ date: 2017-03-07T22:53:12.133Z
 image: /images/profiles/PWIT_Mariana Barbosa.jpg
 title: Mariana Barbosa
 timeInTech: 6 years
-description: 'Startups, Entrepreneurs & Innovation Editor in ECO '
-placeOfOrigin: Coimbra
+description: 'Startups, Entrepreneurs & Innovation Editor @ ECO + Chicas Poderosas Portugal '
+placeOfOrigin: Rio Maior
 socialLinks:
   - name: linkedin
     url: 'https://www.linkedin.com/in/mariana-barbosa-b5848010/'
