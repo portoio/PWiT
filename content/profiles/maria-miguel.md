@@ -11,7 +11,9 @@ socialLinks:
   - name: instagram
     url: 'https://www.instagram.com/maria_miguel_/'
 tags:
-  - explorer
+  - Explorer
+  - Entrepreneurship
+  - Communication
 ---
 
 **Early
