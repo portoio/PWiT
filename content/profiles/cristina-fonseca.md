@@ -19,13 +19,13 @@ I was born in a
 really small town near Fátima, in the center of Portugal. When I say small I mean
 really small: there was no one my age. Besides playing with my brother and
 sister I used to read a lot. I always dreamed of going to a bigger city and
-spending time with my family exploring Lisbon in the summer was amazing. I
+spending time with my family exploring Lisbon in the summer. I
 moved to Lisbon to study Networks and Computer Engineering.
 
 --
 
-\*\*How were you
-introduced to the world of the Portuguese tech industry?           \*\*
+**How were you
+introduced to the world of the Portuguese tech industry?**
 
 Before being introduced to the tech world I was
 introduced to the engineering world. My father is really hands on and liked
