@@ -1,6 +1,6 @@
 ---
 date: 2017-02-15T23:43:47.987Z
-image: /images/profiles/Catarina Campos.jpg
+image: /images/profiles/catarina_3.jpg
 title: Catarina Campos
 timeInTech: 4 years
 description: Developer @ Future Balloons + Co-Founder of Girls Lean In
