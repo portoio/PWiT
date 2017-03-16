@@ -13,8 +13,8 @@ socialLinks:
   - name: medium
     url: 'https://medium.com/@isss111'
 tags:
-  - Managing Partner
   - Founder
+  - Manager
   - Growth
   - Innovation
   - Entrepreneurship
