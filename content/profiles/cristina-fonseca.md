@@ -9,7 +9,7 @@ socialLinks:
   - name: linkedin
     url: 'https://pt.linkedin.com/in/cristinanfonseca/pt'
 tags:
-  - Developer
+  - Web Developer
   - Founder
 ---
 
