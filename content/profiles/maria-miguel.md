@@ -113,7 +113,7 @@ When I started my career
 as a journalist, my editor advised to always sleep on difficult resolutions.
 Having a very impatient and impulsive personality, this proved to be some of
 the best advice I could have received. Nowadays I’m trying to incorporate another
-great piece of advice: done ids better than perfect.
+great piece of advice: done it’s better than perfect.
 
 --
 
