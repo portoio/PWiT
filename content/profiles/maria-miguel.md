@@ -14,6 +14,7 @@ tags:
   - Explorer
   - Entrepreneurship
   - Communication
+  - Innovation
 ---
 
 **Early
