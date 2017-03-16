@@ -22,11 +22,7 @@ designer, and throughout the years I have developed other interests through
 experimentation and curiosity: design, creativity human development and behaviour,
 spaces...
 
- 
-
 --
-
- 
 
 **How
 were you introduced to the world of the Portuguese tech industry?**
@@ -38,11 +34,7 @@ the management of a start up that grew from 5 people to 220 in 4 years. I fell
 in love with human behaviour and connections, and the complex interactions in
 the workplace.
 
- 
-
 --
-
- 
 
 **Walk me
 through your work and what you are doing now in the tech industry.**
@@ -54,11 +46,7 @@ making work meaningful for everyone, through personal development,
 organisational culture shifts, and office space as an important element on how
 people feel and interact at work.
 
- 
-
 --
-
- 
 
 **What part of what you do, you love the most?**
 
@@ -66,11 +54,7 @@ Definitely generating new ideas and solutions
 that bring people together, and help solve challenges through a cooperative and
 community base thinking.
 
- 
-
 --
-
- 
 
 **How do
 you think that your background and knowledge impact the way you approach your
@@ -78,18 +62,14 @@ work in the Portuguese tech industry?**
 
 My background has always been tied to
 questioning everything and critically thinking about everything: are there new
-and interesting ways to achieve a better outcome? 
+and interesting ways to achieve a better outcome?
 
 Knowledge is something that I value, and I
 keep learning as I go: with people around me, by sharing what I know, by
 experimenting, reading and watching on the web what others are doing all over
 the world.
 
- 
-
 --
-
- 
 
 **What advice do you have for young women that want to get into tech and
 don’t know where to start?**
@@ -104,11 +84,7 @@ people, we need to engage in meeting new people: Meet Ups, events, workshops, Fa
 are all great places to find likeminded people, learn new things and find
 interesting projects to be a part of.
 
- 
-
 --
-
- 
 
 **Walk me
 through a day in your life as a Portuguese women in tech.**
@@ -122,29 +98,19 @@ to them or myself. Most of my day is to investigate ideas and solutions for
 various challenges, and to produce and communicate information in a way that
 fits with how our brains work.
 
- 
-
 The end of the day I pick my son up from
 school and my husband joins us to have a family meal cooked from scratch, and
 spend some time together talking about what we loved most in our days and what
 was most challenging as well.
 
- 
-
 --
-
- 
 
 **What's the best advice you've ever received?**
 
 Always hold your values high in everything
 you do.
 
- 
-
 --
-
- 
 
 **What apps/software/tools can't you live without?**
 
@@ -155,11 +121,7 @@ me to people and Trello keeps ideas organized in a neat and collaborative way.
 Google docs are just indispensable at the moment: you can pretty much do
 anything with those.
 
- 
-
 --
-
- 
 
 **Links that you want to
 share?**
