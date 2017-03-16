@@ -27,11 +27,7 @@ discipline it took to play piano for 7 hours a day, if I was to be any good,
 was too heavy for me. I made a choice and 4 years later I majored in Economics
 and became a business journalist. I’m still passionate about music, though.
 
- 
-
 --
-
- 
 
 **Walk me
 through your work and what you are doing now in the tech industry.**
@@ -54,11 +50,7 @@ place called Startup Lisboa, which became the most relevant business incubator
 in the country. That’s where my firm was headquartered. Watching him build that
 place was enough to see him for the leader he is.
 
- 
-
 --
-
- 
 
 **What
 part of what you do, you love the most?**
@@ -70,11 +62,7 @@ very honoured and privileged… and surprised too. I always believed that you
 changed the world in the private sector. This newfound love for the public
 service is something very humbling and thrilling at the same time, for me.
 
- 
-
 --
-
- 
 
 **How do
 you think that your background and knowledge impact the way you approach your
@@ -90,11 +78,7 @@ adaptability that is crucial to relating to so many different stakeholders
 nowadays. Entrepreneurs and engineers are a demanding crowd and being able to
 communicate with them is challenging in many ways.
 
- 
-
 --
-
- 
 
 **What
 advice do you have for young women that want to get into tech and don’t know
@@ -105,11 +89,7 @@ creating a network is key. Visit the communities (incubators, accelerators,
 etc.), talk to the people, ask for advice, read about who’s who. And don’t be
 afraid to make mistakes.
 
- 
-
 --
-
- 
 
 **Walk me
 through a day in your life as a Portuguese women in tech.**
@@ -121,11 +101,7 @@ the opportunities that are being created to support their businesses. The rest
 of my time I manage projects and I assist the Secretary of State of Industry in
 his very dynamic agenda. Never a dull moment!
 
- 
-
 --
-
- 
 
 **What's
 the best advice you've ever received?**
@@ -136,11 +112,7 @@ Having a very impatient and impulsive personality, this proved to be some of
 the best advice I could have received. Nowadays I’m trying to incorporate another
 great piece of advice: done ids better than perfect.
 
- 
-
 --
-
- 
 
 **What
 apps/software/tools can't you live without?**
@@ -148,11 +120,7 @@ apps/software/tools can't you live without?**
 I’m an all-apple lover. I have 4 apple devices in my life. I’m also
 highly addicted to Spotify and Songkick.
 
- 
-
 --
-
- 
 
 **Links that you want to
 share?**
