@@ -9,8 +9,9 @@ socialLinks:
   - name: linkedin
     url: 'https://pt.linkedin.com/in/cristinanfonseca/pt'
 tags:
-  - Web Developer
+  - Innovation
   - Founder
+  - Web Developer
 ---
 
 **Early years and where you came from?**
