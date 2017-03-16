@@ -28,11 +28,7 @@ village close to Porto and at 18 I went to the University of Porto to study
 Management. Back then, I dreamt with a job at Goldman Sachs in New York, but
 life changed dramatically and I ended up falling in love with startups.
 
- 
-
 --
-
- 
 
 **How were you
 introduced to the world of the Portuguese tech industry?**
@@ -51,11 +47,7 @@ moments, I ended up organizing Barcamp Porto in 2010 and that’s where I fell i
 love with technology and entrepreneurship. Since then, everything I’ve done has
 been driven by curiosity and a deep passion for connecting people and ideas.
 
- 
-
 --
-
- 
 
 **Walk me through your work and what
 you are doing now in the tech industry.**
@@ -66,22 +58,14 @@ after a year working with startups (TOPDOX & Platforme) I’m now preparing
 the launch of a couple of new projects. What I’m building is a consequence of
 what I’ve done and learned since I joined college almost 10 years ago. It’s great to be back at the creation stage.
 
- 
-
 --
-
- 
 
 **What part of what you do, you love the most?**
 
 I love connecting
 people and ideas.
 
- 
-
 --
-
- 
 
 **How do you think that your background
 and knowledge impact the way you approach your work in the Portuguese tech
@@ -91,11 +75,7 @@ Because of my non-technical
 background, it’s easier for me to put aside the technicalities of building a
 product and focus on the impact that product will have in the user’s life.
 
- 
-
 --
-
- 
 
 **What advice do you have for young women that want to
 get into tech and don’t know where to start?**
@@ -106,11 +86,7 @@ Portugal Girl Geek Dinners. Get actively involved by adding value to the other
 participants and by helping out the organizers. After that, things will just
 happen.
 
- 
-
 --
-
- 
 
 **Walk me through a day in your life as
 a Portuguese women in tech.**
@@ -125,11 +101,7 @@ hours to work on the projects I have at hands. I follow my plan until around
 7pm or 8pm. Then dinner, some TV and one hour of reading. I try to have days
 completely free of meetings. Those are always my most productive days.
 
- 
-
 --
-
- 
 
 **What's the best advice you've ever received?**
 
@@ -138,11 +110,7 @@ know. What I do know is that a lot of what I am was influenced by the examples
 of my parents and grandmother. Since a young age, I was incentive to work hard,
 stay curious and never give up.
 
- 
-
 --
-
- 
 
 **What apps/software/tools can't you live without?**
 
@@ -152,28 +120,20 @@ These 3 apps run my life. Outlook to connect with people and make sure I don’t
 forget any appointments.  Overcast to listen to my podcasts. Messaging
 apps (Whatsapp, Slack, Telegram and Messenger) to engage with people.
 
- 
-
 I really recommend a
 google chrome extension called Strict Pomodoro. If you get distracted easily by
 social networks this is a great way to ensure you don’t.
 
- 
-
 --
-
- 
 
 **Links that you want to share?**
 
 Startup
-Pirates (www.startuppirates.org)
+Pirates - [www.startuppirates.org](https://www.startuppirates.org)
 
-PortugalStartups.com
-\(www.portugalstartups.com)
+PortugalStartups.com - [www.portugalstartups.com](https://www.portugalstartups.com)
 
 Trojan
-Horse was a Unicorn (www.trojan-unicorn.com)
+Horse was a Unicorn - [www.trojan-unicorn.com](https://www.trojan-unicorn.com)
 
-Techfugees
-\(www.techfugees.com)
+Techfugees - [www.techfugees.com](https://www.techfugees.com)
