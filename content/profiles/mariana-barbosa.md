@@ -11,8 +11,9 @@ socialLinks:
   - name: instagram
     url: 'https://www.instagram.com/mamb/'
 tags:
-  - explorer
-  - journalist
+  - Explorer
+  - Journalist
+  - Communication
 ---
 
 **Early years and where you came from?**
