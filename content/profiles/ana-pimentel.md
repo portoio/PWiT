@@ -3,7 +3,7 @@ date: 2017-03-02T15:50:26.343Z
 image: /images/profiles/pimentel04lowres.jpg
 title: Ana Pimentel
 timeInTech: 7 years
-description: Journalist
+description: Journalist @ Observador
 placeOfOrigin: Figueira da Foz
 socialLinks:
   - name: twitter
