@@ -94,7 +94,7 @@ tinker and experiment and listen and learn. Do not let your background or
 current job limit you. Groups like [Geek Girls Portugal](http://www.geekgirlsportugal.pt/) (formerly Portugal Girl
 Geek Dinners) and many others are a good place to start. Meetups like the [Porto Startup Coffee](https://www.meetup.com/PortoStartupCoffee/) are great experiences. Also,
 don’t be afraid to reach out to people in tech (male or female) that inspire
-you and ask them how they started. And, of course, check [Portuguese Women in Tech](http://pwit-cms.netlify.com/) J
+you and ask them how they started. And, of course, check [Portuguese Women in Tech.](http://pwit-cms.netlify.com/)
 
 --
 
@@ -103,7 +103,7 @@ through a day in your life as a Portuguese women in tech.**
 
 It depends if I’m
 travelling or not. It can either be a regular day at the office (with meetings,
-coffee and the struggle to focus in an open space J ) or crazy long days
+coffee and the struggle to focus in an open space) or crazy long days
 with early flights when travelling abroad to meet our cool innovation partners.
 
 --
@@ -120,9 +120,8 @@ other activities: they will make you grow (personally and professionally).
 **What
 apps/software/tools can't you live without?**
 
-Favourite tools? Strangely enough… paper notebooks J I may not remember where
-I saved that file but I always remember something I noted using pen and paper. Appear.in
-has been saving me from skype issues lately so kudos to them for making online
+Favourite tools? Strangely enough… paper notebooks. I may not remember where
+I saved that file but I always remember something I noted using pen and paper. “Appear.in" has been saving me from skype issues lately so kudos to them for making online
 conferencing really smooth. And, of course, my favourite serendipity machine:
 Twitter! It’s where I find the most interesting content and people.
 
