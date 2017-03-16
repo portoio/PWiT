@@ -10,7 +10,7 @@ socialLinks:
     url: 'https://www.linkedin.com/in/filipacneto'
 tags:
   - Founder
-  - Managing Director
+  - Manager
 ---
 
 **Early years and where you came from?**
