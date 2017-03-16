@@ -1,6 +1,6 @@
 ---
 date: 2017-03-02T15:50:26.343Z
-image: /images/profiles/pimentel04lowres.jpg
+image: /images/profiles/IMG_0869.jpg
 title: Ana Pimentel
 timeInTech: 7 years
 description: Journalist @ Observador
