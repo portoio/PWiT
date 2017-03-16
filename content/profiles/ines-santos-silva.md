@@ -17,6 +17,8 @@ tags:
   - Founder
   - Growth
   - Innovation
+  - Entrepreneurship
+  - Future of Work
 ---
 
 ## **Early years and where you came from?**
