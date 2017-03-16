@@ -24,11 +24,7 @@ worked in other things besides the City Hall, in cinema, as a copy writer, as
 host and PR in a weekly cultural event, as an editor, as a ghost writer for my
 friends.
 
- 
-
 --
-
- 
 
 **How
 were you introduced to the world of the Portuguese tech industry?**
@@ -37,11 +33,7 @@ When I was invited to join Startup Lisboa’s team, four
 years ago. I didn’t even knew what a startup was. It’s been a great journey. I
 like challenges and to decode things I don’t understand.
 
- 
-
 --
-
- 
 
 **Walk me
 through your work and what you are doing now in the tech industry.**
@@ -60,11 +52,7 @@ do.  Recently I’ve started to develop Startup Lisboa’s merchandising
 project and I’m thrill with the project and its potential to our brand and to
 the sense of community. A lot of work ahead!
 
- 
-
 --
-
- 
 
 **What part of what you do, you love the most?**
 
@@ -75,11 +63,7 @@ but at the end it’s all about the people behind it. I love people. And I have
 met great people at Startup Lisboa. I feel happy whenever they get success, I
 feel sad when they fail, like it was my own successes and failures.
 
- 
-
 --
-
- 
 
 **How do
 you think that your background and knowledge impact the way you approach your
@@ -94,14 +78,10 @@ instead of problems. You’re used to see the world upside down. You’re a drea
 without a business plan. So you can add some dream to the business, and learn
 about business to add it to your dream. I’m still working on that.
 
- 
-
 --
 
- 
-
 **What advice do you have for young women that want to
-get into tech and don’t know where to start? **
+get into tech and don’t know where to start?**
 
 Talk with women and men that are already doing stuff,
 go to events and pre-accelerators programs, get engaged in the community,
@@ -115,11 +95,7 @@ to do in life. Last but not least: find the best people to join you in the
 ride. The team is the key to success. And also: It’s never too late to
 \(re)start. (I keep saying this to myself…).
 
- 
-
 --
-
- 
 
 **Walk me
 through a day in your life as a Portuguese women in tech.**
@@ -129,23 +105,15 @@ slowly when I’m connecting my iPhone between 8 and [9 am](http://airmail.calen
 finish the work day when I turn off the iPhone, most of the times after
 midnight. In the middle, I mix businesses with pleasures. Always.
 
- 
-
 --
-
- 
 
 **What's the best advice you've ever received?**
 
 Better done than perfect.
 
- 
-
 --
 
- 
-
-**What apps/software/tools can't you live without?**  
+**What apps/software/tools can't you live without?**
 
 All the apps/software by the startups members of
 Startup Lisboa, of course! In particular, I’m using in a daily base two
