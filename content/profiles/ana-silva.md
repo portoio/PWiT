@@ -11,7 +11,8 @@ socialLinks:
   - name: linkedin
     url: 'https://pt.linkedin.com/in/anamachadosilva'
 tags:
-  - manager
+  - Manager
+  - Expolorer
 ---
 
 **Early
