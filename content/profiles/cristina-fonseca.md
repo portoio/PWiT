@@ -22,14 +22,10 @@ sister I used to read a lot. I always dreamed of going to a bigger city and
 spending time with my family exploring Lisbon in the summer was amazing. I
 moved to Lisbon to study Networks and Computer Engineering.
 
- 
-
 --
 
- 
-
-**How were you
-introduced to the world of the Portuguese tech industry?           **
+\*\*How were you
+introduced to the world of the Portuguese tech industry?           \*\*
 
 Before being introduced to the tech world I was
 introduced to the engineering world. My father is really hands on and liked
@@ -42,19 +38,13 @@ the future and I wanted to learn more about it. Although I didn’t know much at
 that time, since my only contact with computers was basically playing some
 games and changing disk drives, I really liked it!
 
- 
-
 --
-
- 
 
 **Walk me through
 your work and what you are doing now in the tech industry.**
 
 Right now I am taking a sabbatical which includes
-traveling, learning and spending time with family and friends. 
-
- 
+traveling, learning and spending time with family and friends.
 
 Coming from the startup world, my day used to be full
 of adrenaline. When we started Talkdesk, working on the product, speaking with
@@ -64,11 +54,7 @@ Support and Sales. That brought a new set of challenges. The last year we had
 to hire a lot of people to keep up with our growth and overall my work was
 focused on that and in supporting the team.
 
- 
-
 --
-
- 
 
 **What part of what you do, you love the most?**
 
@@ -76,11 +62,7 @@ I really like to
 solve problems over team work, so my favorite part is to work in a group to
 solve a challenging issue.
 
- 
-
 --
-
- 
 
 **How do you think
 that your background and knowledge impact the way you approach your work in the
@@ -93,11 +75,7 @@ moving faster is one of the most important things. On top of that I am an
 engineer and my approach to everything is “let’s find the solution”. Both
 combined make me a person with a “to the point” approach.
 
- 
-
 --
-
- 
 
 **What advice do you have for young women that want to get into tech and
 don’t know where to start?**
@@ -107,31 +85,19 @@ there is no excuse not to learn. As we may find a natural resistance to learn
 just for the sake of learning the best way is to find a project that works as
 an excuse for us to apply the skills.
 
- 
-
 --
-
- 
 
 **Walk me through a
 day in your life as a Portuguese women in tech.**
 
-A day in my life can be really different. Recently my
-days have been full of reading, a bit of writing, learning new skills and
-relaxing in the meantime.
-
- 
+A day in my life can vary a lot so I prefer to organize my week around projects I'm working at. Typically I dedicate 3 days a week to focused work and working with no interruptions which is really important and a challenge nowadays. The remaining of the week I am more open - meetings and external interactions are allowed. Another important part of my life is learning - this can be reading or doing an online course, but is for sure part of my day.
 
 While at Talkdesk my days would be really different
 because the company changed a lot along the years. While initially they would
 be more towards individual work, turned into a more collaborative environment
 as I became more of an enabler once the company grew.
 
- 
-
 These would be the common tasks:
-
- 
 
 -      
 Wake up as early as possible (but
@@ -143,8 +109,7 @@ morning, check email and do some focused work including planning, reviewing
 materials, writing code, preparing presentations or interact with customers.
 
 -      
-Lunch with the team, friend, a
-candidate or .
+Lunch with the team, friend or a candidate.
 
 -      
 Afternoons were typically more
@@ -156,11 +121,7 @@ Leave the office between 21h or
 23h, eat something and work a bit more since the US was still awake and there
 is always someone demanding your attention.
 
- 
-
 --
-
- 
 
 **Whats the best advice you’ve ever received?**
 
@@ -168,11 +129,7 @@ We have the power to change things but we will have to
 break some rules we thought were pre-established. We will then find they were
 not.
 
- 
-
 --
-
- 
 
 **What apps/software/tools can’t you live without?**
 
