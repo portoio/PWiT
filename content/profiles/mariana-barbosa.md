@@ -1,6 +1,6 @@
 ---
 date: 2017-03-07T22:53:12.133Z
-image: '/images/profiles/Captura de ecrã 2017-03-16, às 11.23.16.png'
+image: '/images/profiles/Captura de ecrã 2017-03-16, às 11.47.14.png'
 title: Mariana Barbosa
 timeInTech: 6 years
 description: 'Startups, Entrepreneurs & Innovation Editor in ECO '
