@@ -1,6 +1,6 @@
 ---
 date: 2017-02-15T23:49:42.466Z
-image: /images/profiles/734888_10153382794143391_7963886146706119819_n.jpg
+image: /images/profiles/MINDERA_SOFIA REIS.png
 title: Sofia Reis
 timeInTech: 5 years
 description: Ecosystem Explorer @ Mindera
