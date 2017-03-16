@@ -11,6 +11,7 @@ socialLinks:
   - name: instagram
     url: 'https://www.instagram.com/anascpimentel'
 tags:
+  - communication
   - journalist
   - explorer
 ---
