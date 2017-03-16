@@ -28,11 +28,7 @@ website. On september 2016, I joined the founders team of ECO, as an editor to
 innovation, startups and entrepreneurs issues. Meanwhile I lived and worked in
 Buenos AIres, and in New York.
 
- 
-
 --
-
- 
 
 **How were you
 introduced to the world of the Portuguese tech industry?**
@@ -47,11 +43,7 @@ newsrooms. At that time, I started to learn how to code, not for being a
 developer but to know how to talk to them. Good work is always a question of
 empathy, I guess.
 
- 
-
 --
-
- 
 
 **Walk me through
 your work and what you are doing now in the tech industry.**
@@ -62,11 +54,7 @@ october. My idea to the issues I manage there is to give voice to entrepreneurs
 and make their stories to be tilled and meaningful. They are so inspiring
 people that they deserve to be known.
 
- 
-
 --
-
- 
 
 **What part of what you do, you love the most?**
 
@@ -74,11 +62,7 @@ Being outside, talking to people.
 The privilege to know new people every day and telling their stories. To watch
 their projects growing. To watch them starting new projects.
 
- 
-
 --
-
- 
 
 **How do you think
 that your background and knowledge impact the way you approach your work in the
@@ -90,11 +74,7 @@ curiosity.  Empathy to talk to people and
 absorb their best and most inspiring stories. And curiosity to ask everything I
 want to know and then tell the story. The rest is a bit of lucky.
 
- 
-
 --
-
- 
 
 **What advice do you have for young women that want to
 get into tech and don’t know where to start?**
@@ -103,11 +83,7 @@ Don’t think too much and just
 start. Read, talk to people, exercise, try and fail a lot. Fail fast for
 succeed soon.
 
- 
-
 --
-
- 
 
 **Walk me through a
 day in your life as a Portuguese women in tech.**
@@ -122,22 +98,14 @@ ECO. Lunch at work, busy all day, go home or cinema, talks or conferences. Cook
 dinner, have dinner, read a little. Sometimes some TV series, movies or just
 bed. :)
 
- 
-
 --
-
- 
 
 **What's the best advice you've ever received?**
 
 Don’t take yourself too serious.
 Do your best, always.
 
- 
-
 --
-
- 
 
 **What apps/software/tools can't you live without?**
 
@@ -145,14 +113,8 @@ Whatsapp for everything,
 citymapper and Google Maps to choose the right and easiest way to go. Instagram
 to inspire.
 
- 
-
 --
-
- 
 
 **Links that you want to share?**
 
-My new baby: [https://eco.pt/topico/volta-a-portugal-em-incubadoras/](https://eco.pt/topico/volta-a-portugal-em-incubadoras/) 
-
- 
+My new baby: [https://eco.pt/topico/volta-a-portugal-em-incubadoras/](https://eco.pt/topico/volta-a-portugal-em-incubadoras/)
