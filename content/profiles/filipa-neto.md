@@ -3,7 +3,7 @@ date: 2017-02-25T02:18:39.755Z
 image: /images/profiles/Filipa Neto.jpg
 title: Filipa Neto
 timeInTech: 5 years
-description: Co-founder and Managing Director at Chic by Choice
+description: Co-founder and Managing Director @ Chic by Choice
 placeOfOrigin: Lisbon
 socialLinks:
   - name: linkedin
