@@ -10,8 +10,8 @@ socialLinks:
     url: 'https://pt.linkedin.com/in/sofiamartinsreis/pt'
 tags:
   - Explorer
-  - Manager
-  - Innovation
+  - Future of Work
+  - Gender Equality
 ---
 
 **Early years and where you came from?**
