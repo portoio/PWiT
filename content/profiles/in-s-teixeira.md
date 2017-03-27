@@ -2,8 +2,8 @@
 date: 2017-03-27T10:07:38.541Z
 image: /images/profiles/Inês Teixeira_Feedzai.jpg
 title: Inês Teixeira
-timeInTech: Data Scientist
-description: 3 years
+timeInTech: 3 years
+description: Data Scientist @ Feedzai
 placeOfOrigin: Lisbon
 socialLinks:
   - name: linkedin
