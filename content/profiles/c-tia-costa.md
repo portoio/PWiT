@@ -1,6 +1,6 @@
 ---
 date: 2017-03-26T18:03:53.765Z
-image: /images/profiles/Cátia eSolidar.jpg
+image: /images/profiles/15994702_1426164007407327_4945288722653027011_o.jpg
 title: Cátia Costa
 timeInTech: 7 years
 description: Head of Marketing @ eSolidar
