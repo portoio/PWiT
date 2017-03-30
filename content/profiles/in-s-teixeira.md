@@ -1,6 +1,6 @@
 ---
 date: 2017-03-27T10:07:38.541Z
-image: /images/profiles/Photo 07-08-16%2c 10 18 47.jpg
+image: /images/profiles/Photo 07-08-16_2c 10 18 47.jpg
 title: Inês Teixeira
 timeInTech: 3 years
 description: Data Scientist @ Feedzai
