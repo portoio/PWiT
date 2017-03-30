@@ -1,6 +1,6 @@
 ---
 date: 2017-03-30T14:57:04.219Z
-image: /images/profiles/MC_uniplaces034.JPG
+image: /images/profiles/MC_uniplaces034.jpg
 title: Maria Almeida
 timeInTech: 5 years
 description: Almighty Duchess of Content at Beta-i
