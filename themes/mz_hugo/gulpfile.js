@@ -29,7 +29,7 @@ gulp.task('scripts', function() {
 });
 
 // Jimp variables
-var imgSrc          = ['../../static/images/**/*', './static/images/**/*'],
+var imgSrc          = ['../../static/images/**/*', './static/images/**/*', '!./static/images/favicons/*', '!**/*.svg'],
     imgDest         = '../../public/images/',
     imgQuality      = 80,
     largeWidth      = 1400,
@@ -39,12 +39,16 @@ var imgSrc          = ['../../static/images/**/*', './static/images/**/*'],
 
 // Clean the image folder
 gulp.task('jimp-clean', function() {
-  return exec('rm ' + imgDest + '*', {stdio: 'inherit'});
+  return exec('rm -Rf ' + imgDest + '*/*.jpg', {stdio: 'inherit'});
 });
 
 // Copy original image
 gulp.task('jimp-original', function() {
-  return gulp.src(imgSrc).pipe(gulp.dest(imgDest));
+  return gulp.src(imgSrc).pipe(jimp({
+    '': {
+      quality: imgQuality
+    }
+  })).pipe(gulp.dest(imgDest));
 });
 
 // Create large image
