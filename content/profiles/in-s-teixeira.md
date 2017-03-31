@@ -18,7 +18,7 @@ came from?**
 
 I was born in Lisbon, where I lived most of my life. I’m from a big family with 4 children where I am the second oldest, so the memories I hold dearest of my childhood are the ones playing with my brothers and sister and making up gadgets to keep us entertained. I was always very curious and active, barely had time to sit down at the TV between extracurricular activities and studying.  Ended up taking Aerospace Engineering in Técnico Lisbon, and until recently I was in the United Kingdom working with Airbus, always certain that if I found something I was truly passionate for I would come back. It just so happened that it didn’t take that long for me to hear about Feedzai and the work being developed in one of the most recent areas of study in Artificial Intelligence – and the craving for challenges kicked in.
 
-— 
+—
 
 **How were you introduced
 to the world of the Portuguese tech industry?**
@@ -54,7 +54,7 @@ for young women that want to get into tech and don’t know where to start?**
 
 Find what you are passionate for: experiment, learn, get bored and experiment again. There is no better way to start, and no single way. Read, search for topics you find interesting, experiment with coding, talk to the people you admire to understand how they got to where they are. Fortunately, there are endless areas in tech you can get involved in, the only question is what you like.
 
-— 
+—
 
 **Walk me through a day in
 your life as a Portuguese women in tech.**
@@ -73,7 +73,7 @@ Knowledge and relationships are the only things that only gets better with time 
 **What apps/software/tools
 can't you live without?**
 
-Spotify - I am hooked to music, can’t live without it, Podcast Addict – Best way to listen to my favourite podcasts, Google Maps – To get where I want to the fastest and most efficient way (I’m hooked on optimisation as well) and Whatsapp – [Today](http://airmail.calendar/2017-03-27%2012:00:00%20WEST) we have the advantage of constantly being connected to everyone everywhere, and it is the best way to speak to my friends now spread across the world.
+Spotify - I am hooked to music, can’t live without it, Podcast Addict – Best way to listen to my favourite podcasts, Google Maps – To get where I want to the fastest and most efficient way (I’m hooked on optimisation as well) and Whatsapp – Today we have the advantage of constantly being connected to everyone everywhere, and it is the best way to speak to my friends now spread across the world.
 
 —
 
@@ -85,4 +85,4 @@ Feedzai’s work: [https://feedzai.com](https://feedzai.com/)
 
 **Anything else you want to share?**
 
-I have always loved music and art. I played piano (both classical and jazz) since the age of 4 and it is one of the things I enjoy to do the most. I am also a movie fanatic, enjoying mainly independent films. Sometimes they go terribly wrong, but the good ones make it all worth it. And I have a passion for exercising. From yoga to heavy lifting, I like all kinds of physical exercise. Plus, I can lift 100kg in squats - I may be small but I am a force to be reckon with. 
+I have always loved music and art. I played piano (both classical and jazz) since the age of 4 and it is one of the things I enjoy to do the most. I am also a movie fanatic, enjoying mainly independent films. Sometimes they go terribly wrong, but the good ones make it all worth it. And I have a passion for exercising. From yoga to heavy lifting, I like all kinds of physical exercise. Plus, I can lift 100kg in squats - I may be small but I am a force to be reckon with.
