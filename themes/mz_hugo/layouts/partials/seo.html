@@ -2,7 +2,7 @@
 <meta property="og:description" content="{{ .Description | default .Site.Params.description }}" />
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
-<meta property="og:image" content="{{ (default "admin/default.jpg" .Params.image) | absURL }}" />
-<meta name="twitter:card" content="summary" />
+<meta property="og:image" content="{{ (default "images/social/default-social.jpg" .Params.image) | absURL }}" />
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:url" content="{{ .Permalink }}" />
 <meta name="twitter:title" content="{{ if (eq .Section "profiles") }}Women in Tech | {{ end }}{{ .Title }}" />
