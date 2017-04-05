@@ -22,7 +22,7 @@
 
           <div class="profile-alt__content-resume__item">
             <svg class="profile-alt__content-resume__item-time">
-              <use href="#time-icon"></use>
+              <use xlink:href="#time-icon"></use>
             </svg>
             <span>Time in tech</span>
             {{ .Params.timeInTech }}
@@ -30,7 +30,7 @@
 
           <div class="profile-alt__content-resume__item">
             <svg class="profile-alt__content-resume__item-role">
-              <use href="#role-icon"></use>
+              <use xlink:href="#role-icon"></use>
             </svg>
             <span>Current role</span>
             {{ .Description }}
@@ -38,7 +38,7 @@
 
           <div class="profile-alt__content-resume__item">
             <svg class="profile-alt__content-resume__item-origin">
-              <use href="#origin-icon"></use>
+              <use xlink:href="#origin-icon"></use>
             </svg>
             <span>Place of origin</span>
             {{ .Params.placeOfOrigin }}
@@ -48,7 +48,7 @@
             {{ range .Params.socialLinks }}
             <a href="{{ .url }}" target="_blank">
               <svg class="profile-alt__content-resume__item-social__icon">
-                <use href="#{{ .name }}-icon"></use>
+                <use xlink:href="#{{ .name }}-icon"></use>
               </svg>
             </a>
             {{ end}}

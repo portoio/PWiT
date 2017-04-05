@@ -17,6 +17,10 @@ gulp.task('sass', function() {
   return gulp.src("./scss/**/*.scss") // Gets all files ending with .scss
     .pipe(sass().on('error', sass.logError))
     .pipe(concat('app.css'))
+    .pipe(autoprefixer({
+      browsers: ['last 2 versions','last 4 ios_saf versions'],
+      cascade: false
+    }))
     .pipe(nano())
     .pipe(gulp.dest('./static/css'));
 });
