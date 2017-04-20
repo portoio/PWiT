@@ -7,7 +7,7 @@ socialLinks:
 date: 2017-04-20T14:15:26.090Z
 title: Marta Santos
 tags:
-  - data scientist
+  - data-scientist
   - engineer
 image: /images/profiles/image002.jpg
 description: Data Scientist @ Feedzai
@@ -86,3 +86,4 @@ Please visit Feedzai’s website [https://feedzai.com](https://feedzai.com/)
 else you want to share?**
 
 Don’t forget your humanitarian side! Techies tend to be very logical and practical, but not all things in life are back and white. Get to know different people, different cultures and different ways of living. You’ll find it very impactful and mind-opening.
+
