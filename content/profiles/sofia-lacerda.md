@@ -1,19 +1,19 @@
 ---
-placeOfOrigin: Porto
+date: 2017-04-20T13:09:15.738Z
+image: /images/profiles/SofiaLacerda.jpg
+title: Sofia Lacerda
 timeInTech: 19 years
+description: Creative Director & Product Designer @ Enjoythis
+placeOfOrigin: Porto
 socialLinks:
   - name: linkedin
     url: 'https://www.linkedin.com/in/sofialace/'
   - name: twitter
     url: twitter.com/enjoythis
-date: 2017-04-20T13:09:15.738Z
-title: Sofia Lacerda
 tags:
   - design
   - manager
   - innovation
-image: /images/profiles/sofia_de_lacerda.jpg
-description: Creative Director & Product Designer @ Enjoythis
 ---
 **Early years and where you
 came from?**
@@ -149,3 +149,4 @@ Portugal which is really nice.
 else you want to share?**
 
 Something silly - [www.lmgtfy.com](https://lmgtfy.com/)
+
