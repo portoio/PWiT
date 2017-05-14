@@ -1,6 +1,6 @@
 ---
 date: 2017-05-14T15:00:08.181Z
-image: /images/profiles/14915605_10211337744746183_1321658544316351140_n.jpg
+image: /images/profiles/_DSC3297.jpg
 title: Daniela Seixas
 timeInTech: 3 years
 description: CEO @ Tonic App
