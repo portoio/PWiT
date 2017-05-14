@@ -1,6 +1,6 @@
 ---
 date: 2017-05-14T15:48:54.978Z
-image: /images/profiles/IMG_0768-20-04-17-16-05.jpeg
+image: /images/profiles/12096046_10153395367149457_7445802244438281534_n.jpg
 title: Maria Costeira
 timeInTech: 13 years
 description: >-
@@ -104,3 +104,4 @@ JITT.Travel - [https://www.jitt.travel/en/](https://www.jitt.travel/en/)
 else you want to share?**
 
 Science is cool!
+
