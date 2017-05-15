@@ -12,7 +12,6 @@ tags:
   - AI
   - Virtual Reality
   - Researcher
-  - ''
 ---
 **Early years and where you
 came from?**
@@ -83,3 +82,4 @@ Voice chatbots and Virtual Reality headsets.
 Porto Interactive Center - [https://www.youtube.com/channel/UCIUs4TG-WRI-2cYL3QtYwlQ](https://www.youtube.com/channel/UCIUs4TG-WRI-2cYL3QtYwlQ)
 
 TEDx University of Porto - [https://www.youtube.com/watch?v=qzuteIlVHOM&t=270s](https://www.youtube.com/watch?v=qzuteIlVHOM&t=270s)
+
