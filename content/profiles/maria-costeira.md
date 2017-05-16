@@ -4,8 +4,8 @@ image: /images/profiles/12096046_10153395367149457_7445802244438281534_n.jpg
 title: Maria Costeira
 timeInTech: 13 years
 description: >-
-  Head Advisor for Health & Nano technologies + Angel Investor + Managing
-  Partner @ JiTT.travel
+  Head Advisor for Health & Nano Technologies + Angel Investor + Managing
+  Partner @ JiTT.travel + Co-Founder @ Agentif.ai 
 placeOfOrigin: Coimbra
 socialLinks:
   - name: linkedin
@@ -104,4 +104,5 @@ JITT.Travel - [https://www.jitt.travel/en/](https://www.jitt.travel/en/)
 else you want to share?**
 
 Science is cool!
+
 
