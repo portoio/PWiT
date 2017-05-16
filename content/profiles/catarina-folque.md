@@ -36,7 +36,7 @@ I am currently in charge of the QA work within Deliveroo's consumer core team. M
 **What part of what you do,
 you love the most?**
 
-The fast passed environment where never ending creativity and motivation unites individuals in their ambition to make the best product in the market.
+The fast paced environment where never ending creativity and motivation unites individuals in their ambition to make the best product in the market.
 
 Love how tech is slowly moving into Humanitarian projects.
 
@@ -46,7 +46,7 @@ Love how tech is slowly moving into Humanitarian projects.
 background and knowledge impact the way you approach your work in the
 Portuguese tech industry?**
 
-My early Music studies and Landscape Architecture background always reflected my passion for interdisciplinary trades and taught me to keep centered while multitasking. 
+My early Music studies and Landscape Architecture background always reflected my passion for interdisciplinary trades and taught me to keep centered while multitasking.
 
 —
 
@@ -69,7 +69,7 @@ you've ever received?**
 
 Don't do unto others what you don't want others to do unto you. (Confucius)
 
-— 
+—
 
 **What apps/software/tools
 can't you live without?**
@@ -80,4 +80,4 @@ Charles, Postman or any browser Dev Tools.
 
 **Links that you want to share?**
 
-Empower Hack - [http://empowerhack.io/ ](http://empowerhack.io/ )
+Empower Hack - [http://empowerhack.io/ ](http://empowerhack.io/)
