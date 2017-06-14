@@ -1,6 +1,6 @@
 ---
 date: 2017-05-14T15:21:22.874Z
-image: /images/profiles/Ana Catarina Mamede.jpg
+image: /images/profiles/ACMamede (1).JPG
 title: Ana Catarina Mamede
 timeInTech: 2 years
 description: CEO of Research Trial
@@ -79,5 +79,6 @@ Since I am responsible for the management of social networks of several clients,
 **Links that you want to share?**
 
 Check Research Trial: [www.research-trial.com](https://www.research-trial.com)
+
 
 
