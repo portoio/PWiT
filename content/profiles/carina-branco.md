@@ -3,7 +3,7 @@ date: 2017-05-14T13:56:15.295Z
 image: /images/profiles/foto_cara_abril2012.jpg
 title: Carina Branco
 timeInTech: 15 years
-description: Senior Tech & IT Counsel
+description: Senior Tech & IT Counsel + Co-Founder @ Techlawyers
 placeOfOrigin: Lisbon
 socialLinks:
   - name: linkedin
@@ -86,6 +86,7 @@ Only the links to my LinkedIn page. Techlawyers' website is under construction. 
 else you want to share?**
 
 Be happy. Try to remove your gadgets from the table when you are having a meal with a friend - Friends tend to last more than a season or two.
+
 
 
 
