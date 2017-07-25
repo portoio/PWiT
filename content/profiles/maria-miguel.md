@@ -3,7 +3,7 @@ date: 2017-03-02T17:46:15.172Z
 image: /images/profiles/Maria Miguel Ferreira.jpg
 title: Maria Miguel
 timeInTech: 5 years
-description: Special Advisor to the Secretary of State of Industry
+description: Special Advisor @ Secretary of State of Industry
 placeOfOrigin: Leiria
 socialLinks:
   - name: linkedin
