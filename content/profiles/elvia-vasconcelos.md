@@ -3,7 +3,7 @@ date: 2017-05-14T14:14:42.612Z
 image: /images/profiles/Elvia.jpg
 title: Elvia Vasconcelos
 timeInTech: 5 years
-description: Senior Experience Designer
+description: Senior Experience Designer @ SapientRazorfish_
 placeOfOrigin: Lisbon
 socialLinks:
   - name: twitter
@@ -58,7 +58,7 @@ for young women that want to get into tech and don’t know where to start?**
 
 Speak to people about it. Do the hard work to figure out what you want before you meet them, but trust that you will eventually find your fit. Go to events. Go for coffees. Speak to the professionals you admire, figure out where they are going and go there too!
 
-— 
+—
 
 **Walk me through a day in
 your life as a Portuguese woman in tech.**
@@ -106,5 +106,4 @@ WORK IN PROGRESS: Self-initiated project that takes a critical design approach t
 **Anything
 else you want to share?**
 
-Check this: [https://elviavasconcelosblog.wordpress.com/ ](https://elviavasconcelosblog.wordpress.com/ )
-
+Check this: [https://elviavasconcelosblog.wordpress.com/ ](https://elviavasconcelosblog.wordpress.com/)
