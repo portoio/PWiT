@@ -14,15 +14,14 @@ tags:
   - web-developer
   - engineer
 ---
-
 **Early years and where you
 came from?**
 
-Technology has not always been a part of my life. I grew up between a combination of two weird-related interests: maths and dancing. As no path seemed too obvious, I decided to study management to keep all the endless possibilities open (or maybe I was just too confused to choose). 
+Technology has not always been a part of my life. I grew up between a combination of two weird-related interests: maths and dancing. As no path seemed too obvious, I decided to study management to keep all the endless possibilities open (or maybe I was just too confused to choose).
 
-The good thing about being too confused to choose is that your infinite curiosity may take you everywhere. 
+The good thing about being too confused to choose is that your infinite curiosity may take you everywhere.
 
-— 
+—
 
 **How were you introduced
 to the world of the Portuguese tech industry?**
@@ -45,7 +44,7 @@ you love the most?**
 
 Product is what I love the most and I find motivation in the full spectrum of product development: from wandering around new trends and discussing the unpredictable future, to understanding customer needs, and finally making ideas come to life.
 
-— 
+—
 
 **How do you think that your
 background and knowledge impact the way you approach your work in the
@@ -62,7 +61,7 @@ for young women that want to get into tech and don’t know where to start?**
 
 Look for people and companies that inspire you. Understand why you care. And don’t be afraid to reach out to people - you will be immensely surprised how everyone is willing to help.
 
-— 
+—
 
 **Walk me through a day in
 your life as a Portuguese woman in tech.**
@@ -77,9 +76,10 @@ you've ever received?**
 Forget your weaknesses. Play to your strengths and interests.
 
 ”Another thing that I have found is that intense interest in any subject is indispensable if you’re really going to excel in it. I could force myself to be fairly good in a lot of things, but I couldn’t excel in anything in which I didn’t have an intense interest.”
-- Charlie Munger 
 
-— 
+Charlie Munger
+
+—
 
 **What apps/software/tools
 can't you live without?**
