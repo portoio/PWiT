@@ -1,6 +1,6 @@
 ---
 date: 2017-05-04T00:31:51.591Z
-image: /images/profiles/Teresa_Oficial.png
+image: /images/profiles/Teresa_Oficial.jpg
 title: Teresa Freire de Noronha
 timeInTech: 16 years
 description: Business Analysis Manager @ Passio Consulting + Blogger @ StartApps

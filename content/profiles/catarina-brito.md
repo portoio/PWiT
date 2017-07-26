@@ -1,6 +1,6 @@
 ---
 date: 2017-07-25T21:32:02.959Z
-image: /images/profiles/IMG_20170420_080623.png
+image: /images/profiles/IMG_20170420_080623.jpg
 title: Catarina Brito
 timeInTech: 4 years
 description: Business Intelligence Consultant @ IDW2

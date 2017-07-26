@@ -3,7 +3,7 @@ var ProfilePreview = createClass({
     var entry = this.props.entry;
 
     var entryTitle = entry.getIn(['data', 'title']);
-    var entryImage = entry.getIn(['data', 'image']) || 'default.jpg';
+    var entryImage = entry.getIn(['data', 'image']) ? this.props.getAsset(entry.getIn(['data', 'image'])).toString() : 'default.jpg';
     var entryTimeInTech = entry.getIn(['data', 'timeInTech']);
     var entryDescription = entry.getIn(['data', 'description']);
     var entryPlaceOfOrigin = entry.getIn(['data', 'placeOfOrigin']);

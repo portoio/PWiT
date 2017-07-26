@@ -7,6 +7,7 @@ var gulp = require('gulp'),
   exec = require('child_process').exec,
   uglify = require('gulp-uglify'),
   jimp = require('gulp-jimp');
+  replace = require('gulp-replace');
 
 
 /**
@@ -25,6 +26,20 @@ gulp.task('sass', function() {
     .pipe(gulp.dest('./static/css'));
 });
 
+
+gulp.task('sass-cms', function() {
+  return gulp.src("./scss_cms/**/*.scss") // Gets all files ending with .scss
+    .pipe(sass().on('error', sass.logError))
+    .pipe(concat('cms-override.css'))
+    .pipe(autoprefixer({
+      browsers: ['last 2 versions','last 4 ios_saf versions'],
+      cascade: false
+    }))
+    .pipe(nano())
+    .pipe(gulp.dest('./static/css'));
+});
+
+
 gulp.task('scripts', function() {
   return gulp.src("./scripts/**/*.js") // Gets all files ending with .scss
     .pipe(concat('site.min.js'))
@@ -32,9 +47,34 @@ gulp.task('scripts', function() {
     .pipe(gulp.dest('./static/js'));
 });
 
+gulp.task('cms', function() {
+  var replaceBranch = function(gitBranch) {
+    // console.log("CMS BRANCH: " + gitBranch);
+    return gulp.src("./static/admin/config.yml")
+      .pipe(replace("<% CURRENT_BRANCH %>", gitBranch))
+      .pipe(gulp.dest("./public/admin"));
+  };
+
+  return exec('printf $(git symbolic-ref --short -q HEAD)', function (err, stdout) {
+    if (!err && stdout) {
+      return replaceBranch(stdout);
+    } else {
+      // If we're deploying on Netlify, use $HEAD env var
+      // Fallback to develop
+      exec('printf $HEAD', function(err, stdout) {
+        if (!err && stdout) {
+          return replaceBranch(stdout);
+        } else {
+          return replaceBranch("develop");
+        }
+      });
+    }
+  });
+});
+
 // Jimp variables
-var imgSrc          = ['../../static/images/**/*', './static/images/**/*', '!./static/images/favicons/*', '!**/*.svg'],
-    imgDest         = '../../public/images/',
+var imgSrc          = './static/images/**/*.jpg',
+    imgDest         = './public/images/',
     imgQuality      = 80,
     largeWidth      = 1400,
     regularWidth    = 820,
@@ -43,16 +83,12 @@ var imgSrc          = ['../../static/images/**/*', './static/images/**/*', '!./s
 
 // Clean the image folder
 gulp.task('jimp-clean', function() {
-  return exec('rm -Rf ' + imgDest + '*/*.jpg', {stdio: 'inherit'});
+  return exec('rm ' + imgDest + '*', {stdio: 'inherit'});
 });
 
 // Copy original image
 gulp.task('jimp-original', function() {
-  return gulp.src(imgSrc).pipe(jimp({
-    '': {
-      quality: imgQuality
-    }
-  })).pipe(gulp.dest(imgDest));
+  return gulp.src(imgSrc).pipe(gulp.dest(imgDest));
 });
 
 // Create large image
@@ -116,36 +152,32 @@ gulp.task('jimp', function (callback) {
 
 gulp.task('watch', function(){
   gulp.watch('./scss/**/*.scss', ['sass']);
+  gulp.watch('./scss_cms/**/*.scss', ['sass-cms']);
   gulp.watch('./scripts/**/*.js', ['scripts']);
-  gulp.watch(['../../static/images/*', './static/images/*'], ['jimp']);
+  gulp.watch('./static/images/*', ['jimp']);
 });
 
 gulp.task('serve', function(callback){
-  exec('rm -Rf ../../public && hugo serve --source ../../ --renderToDisk', function (err) {
+  exec('rm -Rf ./public && hugo serve --renderToDisk', function (err) {
     if (err) {
       console.log("Hugo exited with error: ", err);
+      return process.exit(2);
     }
     else {
       callback();
     }
-  }).stdout.pipe(process.stdout);
+  })
+  .stdout.on('data', function(data) {
+    runSequence('cms');
+  })
+  .pipe(process.stdout);
 });
 
 gulp.task('compile', function(callback){
-  exec('rm -Rf ../../public && hugo --source ../../', function (err) {
+  exec('rm -Rf ./public && hugo', function (err) {
     if (err) {
       console.log("Hugo exited with error: ", err);
-    }
-    else {
-      callback();
-    }
-  }).stdout.pipe(process.stdout);
-});
-
-gulp.task('compile-netlify', function(callback){
-  exec('rm -Rf ../../public && hugo_0.18 --source ../../', function (err) {
-    if (err) {
-      console.log("Hugo exited with error: ", err);
+      return process.exit(2);
     }
     else {
       callback();
@@ -157,26 +189,36 @@ gulp.task('compile-netlify', function(callback){
  * Aggregator Tasks
  */
 
-gulp.task('netlify', function(callback) {
-  runSequence(
-    ['sass', 'scripts'],
-    'compile-netlify',
-    'jimp',
-    callback
-  );
-});
 gulp.task('build', function(callback) {
   runSequence(
-    ['sass', 'scripts'],
+    ['sass', 'sass-cms', 'scripts'],
     'compile',
+    'cms',
     'jimp',
-    callback
+    function(err) {
+      if (err) {
+        console.log('[ERROR] gulp build task failed', err);
+        return process.exit(2);
+      }
+      else {
+        return callback();
+      }
+    }
   );
 });
+
 gulp.task('default', function(callback){
   runSequence(
-    ['sass', 'scripts'],
-    ['serve','watch', 'jimp'],
-    callback
+    ['sass', 'sass-cms', 'scripts'],
+    ['serve','watch', 'cms', 'jimp'],
+    function(err) {
+      if (err) {
+        console.log('[ERROR] gulp task failed', err);
+        return process.exit(2);
+      }
+      else {
+        return callback();
+      }
+    }
   );
 });

@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: porto-io/PWiT # Path to your Github repository
-  branch: develop # Branch to update (master by default)
+  branch: <% CURRENT_BRANCH %> # Branch to update (master by default)
 
 media_folder: "/static/images/profiles" # Folder where user uploaded files should go
 public_folder: "/images/profiles"

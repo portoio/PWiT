@@ -1,8 +1,0 @@
-name = "MZ Hugo"
-description = "First draft of Marzee Lab's main Hugo theme."
-min_version = 0.18
-
-[author]
-  name = "Marzee Labs"
-  homepage = "https://marzeelabs.org"
-
