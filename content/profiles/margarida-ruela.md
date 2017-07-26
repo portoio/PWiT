@@ -1,6 +1,6 @@
 ---
 date: 2017-07-25T21:04:01.870Z
-image: /images/profiles/IMG_0535.JPG
+image: /images/profiles/14188564_1122733004429121_4877306125082934792_o.jpg
 title: Margarida Ruela
 timeInTech: 4 years
 description: Senior Data Scientist @ Feedzai
@@ -165,3 +165,4 @@ alive, as long as I can paint. - *Frida Kahlo
 The powerful way she manages to
 tell her story and to display her deepest feelings through her paintings does
 not cease to move and amaze me.
+
