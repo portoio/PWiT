@@ -35,7 +35,7 @@ I am a Senior Data Scientist at Feedzai and, currently, I am leading the data sc
 
 **What part of what you do, you love the most?**
 
-What I love the most about what I do is that I feel that I am always learning. Since I have joined Feedzai, I have faced new several challenges:
+What I love the most about what I do is that I feel that I am always learning. Since I joined Feedzai, I have faced new several challenges:
 
 \- New technical challenges, which made me learn new tools and programming languages;
 
@@ -69,13 +69,13 @@ Fortunately, my days are very unpredictable. One day I can be working from the L
 
 I do not recall the exact words, but it was something along these lines:
 
-Do not be afraid to make mistakes, because you certainly will, more than once, no matter how old or knowledgeable you are. You grow from the mistakes you make, learn from your them and move on, there is no point on dwelling too much on them.
+Do not be afraid to make mistakes, because you certainly will, more than once, no matter how old or knowledgeable you are. You grow from the mistakes you make, learn from them and move on, there is no point on dwelling too much on them.
 
 \_
 
 **What apps/software/tools can’t you live without?**
 
-Gmail, google docs, google calendar, SQL software, python and, of course, Feedzai’s own software, Pulse :)
+Gmail, google docs, google calendar, SQL, python and, of course, Feedzai’s own software, Pulse :)
 
 \_
 
