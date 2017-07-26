@@ -1,6 +1,6 @@
 ---
 date: 2017-07-26T09:38:27.301Z
-image: '/images/profiles/catarina-macedo.png'
+image: '/images/profiles/catarina-macedo.jpg'
 title: Catarina Macedo
 timeInTech: 5 years
 description: Technical Evangelist @ Microsoft HQ

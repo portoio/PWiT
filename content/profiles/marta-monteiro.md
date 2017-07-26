@@ -1,6 +1,6 @@
 ---
 date: 2017-04-10T09:47:06.684Z
-image: /images/profiles/marta monteiro.png
+image: /images/profiles/marta monteiro.jpg
 title: Marta Monteiro
 timeInTech: 7 years
 description: Community & Partner Evangelist @ StartUP Portugal
