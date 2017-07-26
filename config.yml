@@ -2,7 +2,7 @@ MetaDataFormat: yaml
 baseurl: 'https://portuguesewomenintech.com'
 blackfriday:
   hrefTargetBlank: true
-contentdir: content
+title: PT Women in Tech
 googleAnalytics: UA-46722009-2
 languageCode: en-us
 params:
@@ -11,5 +11,3 @@ params:
     industry.
 taxonomies:
   tag: tags
-theme: mz_hugo
-title: PT Women in Tech
