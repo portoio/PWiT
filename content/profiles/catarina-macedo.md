@@ -1,6 +1,6 @@
 ---
 date: 2017-07-26T09:38:27.301Z
-image: '/images/profiles/catarina-macedo.jpg'
+image: /images/profiles/def%20(2).png
 title: Catarina Macedo
 timeInTech: 5 years
 description: Technical Evangelist @ Microsoft HQ
@@ -76,3 +76,4 @@ If games can be considered, Gears of War has been my loyal partner in life.
 **Links that you want to share?**
 
 My awesome team has been developing a great project to make game services very easy to deploy in Azure, all open source! Go take a look: [https://github.com/MicrosoftDX/nether](https://github.com/MicrosoftDX/nether)
+
