@@ -1,6 +1,6 @@
 ---
 date: 2017-07-26T09:38:27.301Z
-image: /images/profiles/def%20(2).png
+image: '/images/profiles/Captura%20de%20ecrã%202017-08-13,%20às%2016.18.12.png'
 title: Catarina Macedo
 timeInTech: 5 years
 description: Program Manager for Xbox Live @ Microsoft HQ
@@ -76,4 +76,5 @@ If games can be considered, Gears of War has been my loyal partner in life.
 **Links that you want to share?**
 
 I am very active on Twitter so if you want to keep in touch or follow what I’m doing and working on, feel free to follow me on: https&#x3A;//www.twitter.com/CatamyKX
+
 
