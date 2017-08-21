@@ -14,7 +14,7 @@ tags:
   - Communication
   - Community
 ---
-Early years and where you came from?
+**Early years and where you came from?**
 
 I started in Berlin at Universal Music where I worked as motion graphic designer producing animation for tv.
 
@@ -26,37 +26,37 @@ After witnessing the lack of women in technology, I started Chicas Poderosas in 
 
 \--
 
-How were you introduced to the world of the Portuguese tech industry?
+**How were you introduced to the world of the Portuguese tech industry?**
 
 I am Portuguese and work in the tech industry, a friend told me about PWIT and here I am sharing my insights.
 
 \--
 
-Walk me through your work and what you are doing now in the tech industry.
+**Walk me through your work and what you are doing now in the tech industry.**
 
 Right now I am full time dedicated to the NGO Chicas Poderosas, trying to establish a three years plan to empower more women finding a sustainable model to make it scale.
 
 \--
 
-What part of what you do, you love the most?
+**What part of what you do, you love the most?**
 
 People!
 
 \--
 
-How do you think that your background and knowledge impact the way you approach your work in the Portuguese tech industry?
+**How do you think that your background and knowledge impact the way you approach your work in the Portuguese tech industry?**
 
 I am right now starting in the Portuguese industry, so still a bit early to tell, but what I know I do bring to the table is a capacity of moving and engaging community, make shit happen and move minds forward working in each individual full potential.
 
 \--
 
-What advice do you have for young women that want to get into tech and don’t know where to start?
+**What advice do you have for young women that want to get into tech and don’t know where to start?**
 
 Go and throw yourself on it, learn from doing, fail fast and don't avoid failure. Embrace failing as your best friend. Put yourself out of your comfort zone and stay with the problem. Eventually you'll find your way around, but you need to be there to learn how it works. Have a cohort!!!!
 
 \--
 
-Walk me through a day in your life as a Portuguese women in tech.
+**Walk me through a day in your life as a Portuguese women in tech.**
 
 Right now my everyday is focused on studying ruby at the Le Wagon bootcamp. As an amazing organization that creates developers in 9 weeks, I want to test it myself and see how can we work together to make it scale. At night I work on managing communities in Latin America.
 
