@@ -22,13 +22,7 @@ My name is Catarina, I’m from Rebordosa, a small town near Porto, Portugal. I�
 
 **How were you introduced to the world of the Portuguese tech industry?**
 
-I was introduced to the world of  
-technology when I was at elementary School. I remember that I was fascinated  
-with computers when I saw them for the first time. I always tried to look and  
-understand how they worked and what we could do with them. I also enjoy maths  
-and at high school, I realized that programming was similar to math terms. Then,  
-I chose to study computer engineering at university and also pursue a career  
-connected to technology.
+I was introduced to the world of technology when I was at elementary School. I remember that I was fascinated with computers when I saw them for the first time. I always tried to look and understand how they worked and what we could do with them. I also enjoy maths and at high school, I realized that programming was similar to math terms. Then, I chose to study computer engineering at university and also pursue a career connected to technology.
 
 \--
 
@@ -40,35 +34,19 @@ Nowadays, I’m a a Software Engineer at Critical Manufacturing. I’m responsib
 
 **What part of what you do, you love the most?**
 
-The part that I like most is when I’m  
-looking for the solutions to solve my problem. To do that, I have to analyse  
-the requests and generate solutions. When I realize that I have the ability to  
-decide how the problem is going to be solved and I can see that my solution is  
-functional, correct and works well, I feel amazingly great.
+The part that I like most is when I’m looking for the solutions to solve my problem. To do that, I have to analyze the requests and generate solutions. When I realize that I have the ability to decide how the problem is going to be solved and I can see that my solution is functional, correct and works well, I feel amazingly great.
 
 \--
 
 **How do you think that your background and knowledge impact the way you approach your work in the Portuguese tech industry?**
 
-It is very important to know if we are  
-able to work in specific areas of knowledge. In the world of programming it is  
-extremely important to know the programming paradigms and the main languages to  
-solve challenges. For this, it is important to know and study more deeply the  
-different programming languages that will give you ability to adapt to the market  
-needs.
+It is very important to know if we are able to work in specific areas of knowledge. In the world of programming it is extremely important to know the programming paradigms and the main languages to solve challenges. For this, it is important to know and study more deeply the different programming languages that will give you ability to adapt to the market needs.
 
 \--
 
 **What advice do you have for young women that want to get into tech and don’t know where to start?**
 
-I think above all if you  
-like challenges and know that any day of your life won´t be the same as the  
-previous day, the world of technology is the most suitable. There will always  
-be problems for you to solve, get out of your comfort zone and realize that you  
-still have much to discover in the world of technology. Every day there are new  
-inventions, new technologies that make you learn and adapt to the unexpected.  
-In my opinion, this is absolutely fantastic and makes me believe more and more  
-that working with computer technology is what I want to do for my whole life.
+I think above all if you like challenges and know that any day of your life won´t be the same as the previous day, the world of technology is the most suitable. There will always be problems for you to solve, get out of your comfort zone and realize that you still have much to discover in the world of technology. Every day there are new inventions, new technologies that make you learn and adapt to the unexpected. In my opinion, this is absolutely fantastic and makes me believe more and more that working with computer technology is what I want to do for my whole life.
 
 \--
 
@@ -80,11 +58,7 @@ I like to get up early, take my breakfast and realize that is another fantastic 
 
 **What's the best advice you've ever received?**
 
-To appreciate the little  
-and simple things in life. Not only, it is important to work and live a life full  
-of goals but also, to see that all your effort has a positive return. It is  
-also important to listen, to understand what surrounds you and help those in  
-need, by knowing that what you do has an impact on something.
+To appreciate the little and simple things in life. Not only, it is important to work and live a life full of goals but also, to see that all your effort has a positive return. It is also important to listen, to understand what surrounds you and help those in need, by knowing that what you do has an impact on something.
 
 \--
 
