@@ -1,0 +1,10 @@
+---
+title: Powered by
+logos:
+  - name: Porto i/o
+    image: /images/profiles/mz-logo.svg
+    link: https://marzeelabs.org/
+  - name: Marzee Labs
+    image: /images/profiles/porto_io-logo.svg
+    link: http://porto.io/
+---
