@@ -56,6 +56,36 @@ collections: # A list of collections the CMS should be able to edit
       - label: "Profile Tags (tag1, tag2, tag3)"
         name: "tags"
         widget: list
+
+  - name: "partners" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Partners" # Used in the UI, ie.: "New Post"
+    folder: "content/partners" # The path to the folder where the documents are stored
+    create: false # Allow users to create new documents in this collection
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "hidden"
+      - label: "Partner Tier"
+        name: "partner_tier"
+        widget: "list"
+        fields:
+          - label: "Name"
+            name: "title"
+            widget: "string"
+          - label: "Logos"
+            name: "logos"
+            widget: "list"
+            fields:
+              - label: "Partner Name"
+                name: "name"
+                widget: "string"
+              - label: "Image"
+                name: "image"
+                widget: "image"
+              - label: "URL"
+                name: "link"
+                widget: "string"
+
   - name: "settings"
     label: "Settings"
     files:

@@ -1,32 +1,26 @@
 {{ if not (eq .Section "mission") }}
+
 <div class="footer__partners-wrapper">
 
   <div class="footer__partners">
+    {{ range where $.Site.RegularPages "Section" "partners" }}
+    {{ range .Params.partner_tier }}
 
     <div class="footer__partners-left">
-      <h1 class="footer__partners-title">Curated by</h1>
+      <h1 class="footer__partners-title">{{ .title }}</h1>
 
-      <a class="footer__partners__link" target="_blank" href="http://www.fesagency.pt/">
-        <img src="/images/partners/fes-logo.svg">
+      {{ range .logos }}
+
+      <a class="footer__partners__link" target="_blank" href="{{ .link }}">
+        <img src="{{ .image }}"/>
       </a>
+
+      {{ end }}
 
     </div>
 
-
-    <div class="footer__partners-right">
-      <h1 class="footer__partners-title">Powered by</h1>
-
-      <a class="footer__partners__link" target="_blank" href="https://marzeelabs.org/">
-        <img src="/images/partners/mz-logo.svg">
-      </a>
-
-
-      <a class="footer__partners__link" target="_blank" href="http://porto.io/">
-        <img src="/images/partners/porto_io-logo.svg">
-      </a>
-
-    </div>
-
+    {{ end }}
+    {{ end }}
   </div>
 
 </div>
