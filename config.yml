@@ -4,10 +4,17 @@ blackfriday:
   hrefTargetBlank: true
 title: PT Women in Tech
 googleAnalytics: UA-46722009-2
-languageCode: en-us
-params:
-  description: >-
-    A portrait of the women that help make the difference in the portuguese tech
-    industry.
 taxonomies:
   tag: tags
+
+# i18n
+DefaultContentLanguage: "en"
+DefaultContentLanguageInSubdir: true
+
+# Params per language
+Languages:
+  en:
+    locale: "en-us"
+    description:  >-
+      A portrait of the women that help make the difference in the portuguese tech
+      industry.

@@ -5,10 +5,21 @@ var gulp = require('gulp'),
   nano = require('gulp-cssnano'),
   runSequence = require('run-sequence'),
   exec = require('child_process').exec,
-  uglify = require('gulp-uglify'),
-  jimp = require('gulp-jimp');
+  babel = require("gulp-babel"),
+  webpack = require("webpack-stream"),
+  jimp = require('gulp-jimp'),
   replace = require('gulp-replace');
 
+// Option objects for the tools used below
+
+var sassOptions = {
+  includePaths: [ "node_modules" ]
+};
+
+var autoprefixerOptions = {
+  browsers: ['last 2 versions','last 4 ios_saf versions'],
+  cascade: false
+};
 
 /**
  * Compile assets
@@ -16,12 +27,9 @@ var gulp = require('gulp'),
 
 gulp.task('sass', function() {
   return gulp.src("./scss/**/*.scss") // Gets all files ending with .scss
-    .pipe(sass().on('error', sass.logError))
+    .pipe(sass(sassOptions).on('error', sass.logError))
     .pipe(concat('app.css'))
-    .pipe(autoprefixer({
-      browsers: ['last 2 versions','last 4 ios_saf versions'],
-      cascade: false
-    }))
+    .pipe(autoprefixer(autoprefixerOptions))
     .pipe(nano())
     .pipe(gulp.dest('./static/css'));
 });
@@ -29,21 +37,21 @@ gulp.task('sass', function() {
 
 gulp.task('sass-cms', function() {
   return gulp.src("./scss_cms/**/*.scss") // Gets all files ending with .scss
-    .pipe(sass().on('error', sass.logError))
+    .pipe(sass(sassOptions).on('error', sass.logError))
     .pipe(concat('cms-override.css'))
-    .pipe(autoprefixer({
-      browsers: ['last 2 versions','last 4 ios_saf versions'],
-      cascade: false
-    }))
+    .pipe(autoprefixer(autoprefixerOptions))
     .pipe(nano())
     .pipe(gulp.dest('./static/css'));
 });
 
-
 gulp.task('scripts', function() {
-  return gulp.src("./scripts/**/*.js") // Gets all files ending with .scss
-    .pipe(concat('site.min.js'))
-    .pipe(uglify())
+  return gulp.src("./scripts/site/**/*.js") // Gets all files ending with .js
+    .pipe(webpack({
+      output: {
+        filename: "site.min.js"
+      }
+    }))
+    .pipe(babel())
     .pipe(gulp.dest('./static/js'));
 });
 
@@ -153,7 +161,7 @@ gulp.task('jimp', function (callback) {
 gulp.task('watch', function(){
   gulp.watch('./scss/**/*.scss', ['sass']);
   gulp.watch('./scss_cms/**/*.scss', ['sass-cms']);
-  gulp.watch('./scripts/**/*.js', ['scripts']);
+  gulp.watch('./scripts/site/**/*.js', ['scripts']);
   gulp.watch('./static/images/*', ['jimp']);
 });
 
