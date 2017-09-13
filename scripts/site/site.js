@@ -1,8 +1,10 @@
+import $ from 'jquery';
+
 $(function() {
 
   var breakMobile = 730; // viewport px breakpoint
 
-  fixedHeader = function() {
+  const fixedHeader = function() {
     var viewportWidth = $( window ).width(),
         fixedClass = 'navigation--fixed-top',
         $navElement = $(".navigation");
@@ -47,7 +49,11 @@ function filtro() {
       event.preventDefault();
     }
 
-    $filterObjects.addClass(filterOutClass).filter("[data-filtro*=" + filterName + "]")
+    $filteredIn = $filterObjects.addClass(filterOutClass).filter("[data-filtro*=" + filterName + "]")
       .removeClass(filterOutClass);
+
+    if (!$filteredIn.length) {
+      $filterObjects.removeClass(filterOutClass);
+    }
   });
 }
