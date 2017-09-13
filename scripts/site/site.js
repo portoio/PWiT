@@ -38,19 +38,29 @@ function filtro() {
     controlActiveClass = 'intro-section__tags-content__links--active';
 
   $filterControls.click(function(event) {
-    var filterName = $(this).text();
-    $filterControls.removeClass(controlActiveClass);
-    $(this).addClass(controlActiveClass);
 
+    var filterName = $(this).text();
     if (!filterName.length) {
-      reorderProfiles(shuffleOrder);
       return;
-    } else {
-      event.preventDefault();
-      reorderProfiles(originalOrder);
     }
 
-    var $filteredIn = $filterObjects.addClass(filterOutClass).filter("[data-filtro*=" + filterName + "]")
+    event.preventDefault();
+    var currentFilter = $(this).hasClass(controlActiveClass);
+
+    // Restore unfiltered order when clicking on an already active filter.
+    $filterControls.removeClass(controlActiveClass);
+    $filterObjects.removeClass(filterOutClass);
+    if(currentFilter) {
+      reorderProfiles(shuffleOrder);
+      return;
+    }
+
+    reorderProfiles(originalOrder);
+    $(this).addClass(controlActiveClass);
+    
+    var $filteredIn = $filterObjects
+      .addClass(filterOutClass)
+      .filter("[data-filtro*=" + filterName + "]")
       .removeClass(filterOutClass);
 
     if (!$filteredIn.length) {
