@@ -1,6 +1,6 @@
 ---
 date: 2017-08-22T09:43:41.858Z
-image: /images/profiles/DSC02378.jpg
+image: /images/profiles/DSC02378.JPG
 title: Alexandra Silva
 timeInTech: '11 years '
 description: Business Intelligence & Analytics Consultant @ Celfinet

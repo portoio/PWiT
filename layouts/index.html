@@ -4,7 +4,7 @@
 
   <div class="profile-cards">
     <ul class="profile-cards__content">
-    {{ range $index, $page := where .Data.Pages.ByTitle "Section" "profiles" }}
+    {{ range $index, $page := where .Data.Pages.ByDate "Section" "profiles" }}
       {{ .Render "li" }}
     {{ end }}
     </ul>
