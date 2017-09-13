@@ -24,14 +24,12 @@
 
 .footer__partners-left {
   float: left;
-  width: 40%;
-}
 
-.footer__partners-right {
-  float: left;
-  width: 60%;
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
 
-  .footer__partners__link img:first-child {
+  .footer__partners__link:not(:last-child) img {
     margin-right: 25px;
 
     @include mq($until: break-medium-small) {
