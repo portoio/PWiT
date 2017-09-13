@@ -1,6 +1,6 @@
 ---
 date: 2017-08-22T09:43:41.858Z
-image: /images/profiles/DSC02378.JPG
+image: /images/profiles/DSC02378.jpg
 title: Alexandra Silva
 timeInTech: '11 years '
 description: Business Intelligence & Analytics Consultant @ Celfinet
@@ -71,4 +71,5 @@ Honesty and effort are the best qualities that you have. Never loose them!
 **What apps/software/tools can’t you live without?**
 
 Spotify, Home Banking, Instagram, and Excel!
+
 
