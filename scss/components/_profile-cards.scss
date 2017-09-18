@@ -8,31 +8,30 @@
   @include container(1240px);
   padding: 0 10px;
   margin: ritmo(5) auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .profile-cards__content-item {
   display: block;
-  color: black;
+  color: palette(black);
   margin-bottom: ritmo(6);
 
   @include mq($until: break-medium) {
-    @include span(full);
+    flex: 0 0 auto;
+    width: span(full);
   }
 
   @include mq($from: break-medium-small, $until: break-large) {
-    @include span(2);
-
-    &:nth-child(3n+1){
-      clear:both;
-    }
+    flex: 0 0 auto;
+    @include gutters;
+    width: span(2);
   }
 
   @include mq($from: break-large) {
-    @include span(1.5);
-
-    &:nth-child(4n+1){
-      clear:both;
-    }
+    flex: 0 0 auto;
+    @include gutters;
+    width: span(1.5);
   }
 
   &.filtro-out {
