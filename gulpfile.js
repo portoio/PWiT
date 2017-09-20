@@ -106,7 +106,7 @@ gulp.task('images-original', function() {
 gulp.task('images-responsive', function() {
   return gulp.src(imgSrc).pipe(responsive(
     {
-      '**/*.jpg': [
+      'profiles/*.jpg': [
         {
           // Create small image
           width: smallWidth,
@@ -131,10 +131,15 @@ gulp.task('images-responsive', function() {
           rename: { suffix: '-large' },
           withoutEnlargement
         }
-      ]
+      ],
+      '**/*.jpg': {
+        errorOnUnusedImage: false,
+        passThroughUnused: true
+      }
     },
     {
       // Options for all images
+      silent: true,
       quality: imgQuality,
       errorOnEnlargement: false
     }
