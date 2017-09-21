@@ -8,7 +8,18 @@
           {{ $src := .Params.image }}
           {{ $name := substr $src 0 -4 }}
           {{ $ext := substr $src (sub (len $src) 4) }}
-          <img src="{{ $src }}" srcset="{{ $name }}-small{{ $ext }} 460w, {{ $name }}-medium{{ $ext }} 680w, {{ $name }}-regular{{ $ext }} 820w, {{ $name }}-large{{ $ext }} 1400w," sizes="(max-width: 980px) 65vw, (min-width: 981px) 70vw" alt="{{ .Title }}" title="{{ .Title }}" />
+          <img
+            src="{{ $src }}"
+            srcset="{{ $name }}-small{{ $ext }} 460w,
+                    {{ $name }}-medium{{ $ext }} 680w,
+                    {{ $name }}-regular{{ $ext }} 820w,
+                    {{ $name }}-large{{ $ext }} 1400w,"
+            sizes=" (max-width: 819px) 100vw,
+                    (max-width: 1000px) 50vw,
+                    500px"
+            alt="{{ .Title }}"
+            title="{{ .Title }}"
+          />
         </div>
       </div>
 
