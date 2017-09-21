@@ -14,4 +14,9 @@ partner_tier:
       - name: Marzee Labs
         image: /images/profiles/porto_io-logo.svg
         link: http://porto.io/
+  - title: Supported by
+    logos:
+      - name: ScaleUp Porto
+        image: /images/profiles/scaleup_logo.svg
+        link: http://scaleupporto.pt/
 ---
