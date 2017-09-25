@@ -9,7 +9,7 @@ socialLinks:
   - name: linkedin
     url: 'https://www.linkedin.com/in/mrosariocosta/'
 tags:
-  - designer
+  - design
   - web-developer
 ---
 **Early years and where you
@@ -71,3 +71,4 @@ After Effects, Photoshop, Illustrator, Premiere (or final cut), some coding edit
 else you want to share?**
 
 You need to get inspired! Get inspired by your surroundings. With details from your city, from other cultures and places. Go out! Attend many workshops, seminars, hackathons, etc. you can. Know new people! Get inspired by their experience, learn with them! Do exercise as well! You will need it, we spend too many hours sitting on a chair... Do volunteering! :)
+
