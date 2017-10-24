@@ -3,7 +3,7 @@ date: 2017-03-02T15:50:26.343Z
 image: /images/profiles/IMG_0869.jpg
 title: Ana Pimentel
 timeInTech: 7 years
-description: Journalist @ Observador
+description: Coordenadora de Tecnologia e Startups @ Observador
 placeOfOrigin: Figueira da Foz
 socialLinks:
   - name: twitter
