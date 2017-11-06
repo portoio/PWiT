@@ -8,7 +8,7 @@
   position: relative;
   background-color: rgba(palette(white), .95);
 
-  @include mq($until: break-medium) {
+  @include mq($until: break-medium-large) {
     position: fixed;
     text-align: left;
     top: 0;
@@ -17,7 +17,7 @@
     padding: 0;
   }
 
-  @include mq($from: break-medium) {
+  @include mq($from: break-medium-large) {
     position: fixed;
     top: 0;
     left: 0;
@@ -32,18 +32,22 @@
     padding: ritmo(4) 0;
     display: block;
 
-    @include mq($from: break-medium) {
-      padding: ritmo() 16px;
+    @include mq($from: break-medium-large) {
+      padding: ritmo() 12px;
       transition: background 0.3s ease;
       border-radius: 20px;
       @include ritmo-font-size(12px);
+    }
+
+    @include mq($from: break-large) {
+      padding: ritmo() 16px;
     }
 
     &:hover {
       background: palette(black);
       color: palette(white);
 
-      @include mq($from: break-medium) {
+      @include mq($from: break-medium-large) {
         background: palette(black);
       }
     }
@@ -57,7 +61,7 @@
       color: palette(white);
     }
 
-    @include mq($from: break-medium) {
+    @include mq($from: break-medium-large) {
       color: palette(white);
       background: palette(black);
     }
@@ -71,7 +75,7 @@
 
 .navigation__menu {
 
-  @include mq($until: break-medium) {
+  @include mq($until: break-medium-large) {
     background: rgba(palette(white),.95);
     max-height: 0;
     text-align: center;
@@ -87,7 +91,7 @@
     }
   }
 
-  @include mq($from: break-medium) {
+  @include mq($from: break-medium-large) {
     padding-right: 15px;
     float: right;
     margin-top: ritmo(5);
@@ -146,7 +150,7 @@
   cursor: pointer;
   margin-left: 55px;
 
-  @include mq($from: break-medium) {
+  @include mq($from: break-medium-large) {
     display: none;
   }
 }
@@ -156,11 +160,15 @@
   background-color: palette(white);
   width: auto;
 
-  @include mq($from: break-medium) {
+  @include mq($from: break-medium-large) {
     display: inline-block;
-    margin: 0 0.15em;
+    margin: 0;
     text-transform: uppercase;
     background-color: transparent;
+  }
+
+  @include mq($from: break-large) {
+    margin: 0 0.15em;
   }
 }
 
@@ -171,7 +179,7 @@
   top: ritmo(3);
   left: 10px;
 
-  @include mq($from: break-medium) {
+  @include mq($from: break-medium-large) {
     width: 250px;
     height: 90px;
     top: ritmo(6);
@@ -208,7 +216,7 @@
   top: 0;
   left: 10px;
 
-  @include mq($from: break-medium) {
+  @include mq($from: break-medium-large) {
     left: 0;
   }
 }
@@ -216,7 +224,7 @@
 .navigation-logo__svg-main {
   display: none;
 
-  @include mq($from: break-medium) {
+  @include mq($from: break-medium-large) {
     display: block;
     width: 85%;
     margin: 0 7.5%;
@@ -231,7 +239,7 @@
 .navigation-logo__svg-minified {
   display: block;
 
-  @include mq($from: break-medium) {
+  @include mq($from: break-medium-large) {
     display: none;
   }
 }
