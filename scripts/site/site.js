@@ -1,7 +1,7 @@
 import $ from 'jquery';
 
 $(function() {
-  var breakMobile = 730; // viewport px  breakpoint
+  var breakMobile = 820; // viewport px  breakpoint
 
   const fixedHeader = function() {
     var viewportWidth = $( window ).width(),

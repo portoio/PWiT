@@ -5,7 +5,7 @@
   text-align: center;
   margin-bottom: 0;
 
-  @include mq($from: break-medium) {
+  @include mq($from: break-medium-large) {
     padding: ritmo(35) 20px ritmo(2) 20px;
   }
 }
