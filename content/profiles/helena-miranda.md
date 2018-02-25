@@ -13,11 +13,9 @@ tags:
 ---
 **Early years and where you came from?**
 
-
-I've studied economics at Nova School of Business and Economics and I've work in Consulting for a Big4 for several years, then i took a master in Nova IMS and I've star working with information and analytics in a big scale. 
+I've studied economics at Nova School of Business and Economics and I've work in Consulting for a Big4 for several years, then i took a master in Nova IMS and I've star working with information and analytics in a big scale.
 
 —
-
 
 **How were you introduced to the world of the Portuguese tech industry?**
 
@@ -27,7 +25,7 @@ In PricewaterhouseCoopers.
 
 **Walk me through your work and what you are doing now in the tech industry.**
 
-I build consumer propensity and segmentation models using data mining techniques for cross-selling campaigns and other customer centric decisions. 
+I build consumer propensity and segmentation models using data mining techniques for cross-selling campaigns and other customer centric decisions.
 
 —
 
@@ -36,7 +34,6 @@ I build consumer propensity and segmentation models using data mining techniques
 I love to build models and discover patterns in large data sets involving methods at the intersection of machine learning, statistics. I also love to define the requirements to pull together information in a database system that will enable us to look whenever we want to the same information and build knowledge with it.
 
 —
-
 
 **How do you think that your background and knowledge impact the way you approach your work in the Portuguese tech industry?**
 
@@ -50,23 +47,18 @@ I strongly reccomend a Postgraduate Program in Information Management.
 
 —
 
-
 **Walk me through a day in your life as a Portuguese women in tech.**
 
 It's a lonely life, whit a few people to talk about future challenges and tendencies.
 
 —
 
-**
-What’s the best advice you’ve ever received?**
+**What’s the best advice you’ve ever received?**
 
 "If you have started something , take it till the end" from my grandmothers
 
 —
 
-**
-What apps/software/tools can’t you live without?**
+**What apps/software/tools can’t you live without?**
 
 SAS Miner, SAS Guide, SPSS Statistics, SPSS Modeler, Microstrategy, SQL Server
-
-
