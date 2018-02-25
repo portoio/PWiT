@@ -2,7 +2,7 @@
 date: 2018-02-25T00:30:34.006Z
 image: /images/profiles/Sara Alexandra Rafael Miguéns.jpg
 title: Sara Alexandra Rafael Miguéns
-timeInTech: '5'
+timeInTech: 5 years
 description: Internal Communications Manager @ EDP's IT Department
 placeOfOrigin: Portugal
 socialLinks:
@@ -89,4 +89,5 @@ Youtube
 Lisboa Move-Me
 
 Messenger
+
 
