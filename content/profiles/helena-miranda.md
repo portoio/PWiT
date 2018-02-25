@@ -2,7 +2,7 @@
 date: 2018-02-25T00:46:36.014Z
 image: /images/profiles/Helena Miranda.jpg
 title: Helena Miranda
-timeInTech: '8'
+timeInTech: 8 years
 description: Data Mining Specialist
 placeOfOrigin: Portugal
 socialLinks:
@@ -68,4 +68,5 @@ What’s the best advice you’ve ever received?**
 What apps/software/tools can’t you live without?**
 
 SAS Miner, SAS Guide, SPSS Statistics, SPSS Modeler, Microstrategy, SQL Server
+
 
