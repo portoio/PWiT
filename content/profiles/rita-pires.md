@@ -14,18 +14,15 @@ tags:
 ---
 **Early years and where you came from?**
 
-
 I've worked 16 year in a multinational in IT and Marketing and then I've moved to a Portuguese Software company with 320 employees that exports 95% where I am responsible for Business Development.
 
 –
 
-**How were you introduced to the world of the Portuguese tech industry?
-**
+**How were you introduced to the world of the Portuguese tech industry?**
 
 In the university and later  at work in Vodafone.
 
 –
-
 
 **Walk me through your work and what you are doing now in the tech industry.**
 
@@ -33,8 +30,7 @@ I'm responsible for Business Development in a Portuguese Software Company that e
 
 –
 
-**
-What part of what you do, you love the most?**
+**What part of what you do, you love the most?**
 
 I love technology and innovation and making life of people easier, helping companies creating solutions to deliver to their customers.
 
@@ -44,9 +40,7 @@ I love technology and innovation and making life of people easier, helping compa
 
 My work background in IT and marketing help me getting a bigger overview on the tech industry on the demand and offer view.  The knowledge of a multinational like Vodafone where I've worked before and the experience of working in  a smaller company that started from  0 in 2001 and now has 320 employees and exports 95% of its software for 42 countries and invests 25% fit's revenues in R&D every year enriched my skills, offering me a bigger helicopter view about the Portuguese tech industry in Portugal and in the world.
 
-
 –
-
 
 **What advice do you have for young women that want to get into tech and don’t know where to start?**
 
@@ -57,15 +51,13 @@ My work background in IT and marketing help me getting a bigger overview on the 
 
 –
 
-**
-Walk me through a day in your life as a Portuguese women in tech.**
+**Walk me through a day in your life as a Portuguese women in tech.**
 
 Depending on the day I may have meetings outside the office, conference calls, VC's, Travels, Meetings with the virtual teams about the projects. Meetings with the customers. Planning agendas, Reading techs newsletters of the day. Writing proposals, planing the work for the week.
 
 –
 
-**
-What’s the best advice you’ve ever received**?
+**What’s the best advice you’ve ever received?**
 
 If you don't do for yourself nobody will do it!
 
@@ -80,6 +72,3 @@ My iPhone, kindle, Mac, what's app, mail, org apps, others
 **Anything else you want to share?**
 
 My ambition to join is not to promote myself, but I want to help other women to succeed, to teach them, coach them! Tech is a hard place for women to succeed and we should help each other .
-
-
-
