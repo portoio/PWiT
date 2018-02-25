@@ -77,8 +77,9 @@ My iPhone, kindle, Mac, what's app, mail, org apps, others
 
 –
 
-**11**
+**Anything else you want to share?**
 
 My ambition to join is not to promote myself, but I want to help other women to succeed, to teach them, coach them! Tech is a hard place for women to succeed and we should help each other .
+
 
 
