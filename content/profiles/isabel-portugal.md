@@ -75,6 +75,7 @@ R, Python, MySQL
 
 —
 
-**11**
+**Anything else you want to share?**
 
 Thank you for stepping up and encourage us to do the same :)
+
