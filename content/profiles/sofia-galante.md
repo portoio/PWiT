@@ -10,7 +10,6 @@ socialLinks:
     url: 'https://www.linkedin.com/in/sofia-galante-0319aa/'
 tags:
   - manager
-  - ''
 ---
 **Early years and where you came from?**
 
@@ -71,3 +70,4 @@ It's a cliché but really helpful when trying to breach barriers and aim higher:
 **What apps/software/tools can’t you live without?**
 
 Whatsapp 
+
