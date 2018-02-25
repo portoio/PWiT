@@ -71,3 +71,4 @@ I am Board Member of WomenWinWin, a Portuguese non-profit organization for devel
 I also nourish my membership at EMCC, the European Mentoring & Coaching Council     and I am a proud Toastmaster.
 Currently, I am co-leading the Business Mentoring Program at WomenWinWin, supporting +20 women that are investing in their own businesses and ideas.
 
+
