@@ -22,19 +22,17 @@ I studied economics and business intelligence/analytics. I also develop and work
 
 **How were you introduced to the world of the Portuguese tech industry?**
 
-I started going to meetups about Agile and Data Science and I've also participated in events like PixelsCamp and WebSummit. 
+I started going to meetups about Agile and Data Science and I've also participated in events like PixelsCamp and WebSummit.
 
 —
 
-**
-Walk me through your work and what you are doing now in the tech industry.**
+**Walk me through your work and what you are doing now in the tech industry.**
 
-I am working now at Veniam where I've been testing hypotheses, building predictive models and helping stakeholders make better data-driven decisions. 
+I am working now at Veniam where I've been testing hypotheses, building predictive models and helping stakeholders make better data-driven decisions.
 
 —
 
-**What part of what you do, you love the most?
-**
+**What part of what you do, you love the most?**
 
 Making an impact on how things work by find solutions to make it smarter.
 
@@ -42,40 +40,34 @@ Making an impact on how things work by find solutions to make it smarter.
 
 **How do you think that your background and knowledge impact the way you approach your work in the Portuguese tech industry?**
 
-
 I am working in tech while having no degree in Engineering, but one in Economics. I've been told that that's quite inspiring for the community and more people should hear my story and be encouraged to take more risks in what they believe that would make them happier.
 
 —
 
 **What advice do you have for young women that want to get into tech and don’t know where to start?**
 
-Go to meetups and build your network. Do workshops and online courses. Don't just think about it but take action. 
+Go to meetups and build your network. Do workshops and online courses. Don't just think about it but take action.
 
 —
-**
-Walk me through a day in your life as a Portuguese women in tech.**
+
+**Walk me through a day in your life as a Portuguese women in tech.**
 
 Struggling to make everyone realize that we are treated differently and that I want to be treated the same as them. I want to have the same respect and same responsibilities.
 
 —
 
-**
-What’s the best advice you’ve ever received?
-**
+**What’s the best advice you’ve ever received?**
+
 "only those who will risk going too far can possibly find out how far they can go"
 
-
 —
-
 
 **What apps/software/tools can’t you live without?**
 
 R, Python, MySQL
-
 
 —
 
 **Anything else you want to share?**
 
 Thank you for stepping up and encourage us to do the same :)
-
