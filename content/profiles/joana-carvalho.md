@@ -1,6 +1,6 @@
 ---
 date: 2018-02-25T15:10:47.491Z
-image: /images/profiles/Joana Carvalho.jpg
+image: /images/profiles/DSC_0545.JPG
 title: Joana Carvalho
 timeInTech: 6 years
 description: Performance Engineer
@@ -50,3 +50,4 @@ I would say that they have to go with an open mind, and that they have to be ope
 **What apps/software/tools can’t you live without?**
 
 iTerm, zsh, sublime, pythons pygal
+
