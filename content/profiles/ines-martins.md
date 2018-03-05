@@ -1,6 +1,6 @@
 ---
 date: 2018-02-25T17:04:21.850Z
-image: /images/profiles/profile_default_woman.jpg
+image: /images/profiles/img.jpeg
 title: Inês Martins
 timeInTech: 3 years
 description: Software Developer
@@ -74,6 +74,7 @@ Links that you want to share?**
 
 
 https://www.adapttech.eu/
+
 
 
 
