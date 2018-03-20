@@ -3,7 +3,7 @@ date: 2017-05-04T00:47:40.361Z
 image: /images/profiles/catarinafolque.jpg
 title: Catarina Folque
 timeInTech: 4 years
-description: QA Analyst @ Deliveroo
+description: QA Analyst @Deliveroo & @FolqueSolutions
 placeOfOrigin: Lisbon
 socialLinks:
   - name: linkedin
@@ -81,3 +81,4 @@ Charles, Postman or any browser Dev Tools.
 **Links that you want to share?**
 
 Empower Hack - [http://empowerhack.io/ ](http://empowerhack.io/)
+
