@@ -1,6 +1,6 @@
 ---
 date: 2018-02-25T16:50:57.996Z
-image: /images/profiles/Adeleide Leitão.jpg
+image: /images/profiles/AdeleideLeitao.jpg
 title: Adelaide Leitao
 timeInTech: +20 years
 description: Sales Manager
@@ -70,5 +70,3 @@ Pick your battles.
 I am Board Member of WomenWinWin, a Portuguese non-profit organization for developing and connecting women in business and also member of PWN Lisbon, part of a worldwide network for professional women development.
 I also nourish my membership at EMCC, the European Mentoring & Coaching Council     and I am a proud Toastmaster.
 Currently, I am co-leading the Business Mentoring Program at WomenWinWin, supporting +20 women that are investing in their own businesses and ideas.
-
-

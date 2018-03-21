@@ -1,6 +1,6 @@
 ---
 date: 2018-02-25T00:30:34.006Z
-image: /images/profiles/Sara Alexandra Rafael Miguéns.jpg
+image: /images/profiles/SaraAlexandraRafaelMiguens.jpg
 title: Sara Miguéns
 timeInTech: 5 years
 description: Internal Communications Manager @ EDP's IT Department

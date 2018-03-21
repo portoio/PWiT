@@ -1,6 +1,6 @@
 ---
 date: 2018-02-25T17:04:21.850Z
-image: /images/profiles/img.jpeg
+image: /images/profiles/InesMartins.jpg
 title: Inês Martins
 timeInTech: 3 years
 description: Software Developer
@@ -38,7 +38,7 @@ How fun and simple it is. You have a problem to solve and you try to solve it ju
 
 **What advice do you have for young women that want to get into tech and don’t know where to start?**
 
-Once I decided I wanted to switch careers I started working for a company where I did some communication work and received software/programming training in return. There are many companies that offer Academies and training programs, as a way to recruit "non-techies" to the field, so I think the entry barrier is very low, it's just a matter of knowing that there's a place for women. 
+Once I decided I wanted to switch careers I started working for a company where I did some communication work and received software/programming training in return. There are many companies that offer Academies and training programs, as a way to recruit "non-techies" to the field, so I think the entry barrier is very low, it's just a matter of knowing that there's a place for women.
 
 —
 
@@ -74,7 +74,3 @@ Links that you want to share?**
 
 
 https://www.adapttech.eu/
-
-
-
-
