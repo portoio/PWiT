@@ -3,7 +3,7 @@ date: 2017-05-14T15:36:25.361Z
 image: /images/profiles/foto_pv.jpg
 title: Teresa Fernandes
 timeInTech: 24 years
-description: Mentor & Advisor to the Board @ AICEP
+description: Head of Dream Assembly @ Farfetch
 placeOfOrigin: Lisbon
 socialLinks:
   - name: linkedin
@@ -78,3 +78,4 @@ It’s all about people. Although all the technology that are available, it’s 
 can't you live without?**
 
 Google, social media, email.
+
